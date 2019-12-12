@@ -9,7 +9,8 @@ const mkdirp = Promise.promisify(require("mkdirp"));
 const path = require("path");
 const writeFileAtomic = Promise.promisify(require("write-file-atomic"));
 const moment = require("moment");
-const { mergeMap } = require("rxjs/operators");
+const { BehaviorSubject } = require("rxjs");
+const { mergeMap, multicast, refCount, filter } = require("rxjs/operators");
 const { cron } = require("rxx");
 
 async function saveJSON(file, data) {
@@ -24,8 +25,11 @@ async function saveJSON(file, data) {
     const sh = new SmartHub(config.router);
     const outDir = path.join(config.state, "network");
 
-    const feed$ = cron(config.interval).pipe(
-      mergeMap(now => Promise.props({ now, network: sh.getMyNetwork() }))
+    const feed$ = cron(config.interval / 10).pipe(
+      mergeMap(now => Promise.props({ now, network: sh.getMyNetwork() })),
+      multicast(new BehaviorSubject()),
+      refCount(),
+      filter(Boolean)
     );
 
     feed$
