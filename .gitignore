@@ -1,0 +1,4 @@
+.*.sw?
+/.state/
+/Session.vim
+/node_modules/

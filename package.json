@@ -1,0 +1,21 @@
+{
+  "name": "eesmarthub",
+  "version": "0.0.1",
+  "description": "Monitor EE Smart Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Armstrong <andy@hexten.net>",
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "bluebird": "^3.7.2",
+    "config": "^3.2.4",
+    "cross-fetch": "^3.0.4",
+    "lodash": "^4.17.15",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "write-file-atomic": "^3.0.1"
+  }
+}
