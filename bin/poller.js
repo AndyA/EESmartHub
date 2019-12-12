@@ -20,28 +20,26 @@ async function saveJSON(file, data) {
   await writeFileAtomic(file, JSON.stringify(data, null, 2));
 }
 
-(async () => {
-  try {
-    const sh = new SmartHub(config.router);
-    const outDir = path.join(config.state, "network");
+try {
+  const sh = new SmartHub(config.router);
+  const outDir = path.join(config.state, "network");
 
-    const feed$ = cron(config.interval).pipe(
-      mergeMap(now => Promise.props({ now, network: sh.getMyNetwork() })),
-      multicast(new BehaviorSubject()),
-      refCount(),
-      filter(Boolean)
-    );
+  const feed$ = cron(config.interval).pipe(
+    mergeMap(now => Promise.props({ now, network: sh.getMyNetwork() })),
+    multicast(new BehaviorSubject()),
+    refCount(),
+    filter(Boolean)
+  );
 
-    feed$
-      .pipe(
-        mergeMap(({ now, network }) => {
-          const name = moment.utc(now).format() + ".json";
-          return saveJSON(path.join(outDir, name), network);
-        })
-      )
-      .subscribe();
-  } catch (e) {
-    console.error(e);
-    process.exit(1);
-  }
-})();
+  feed$
+    .pipe(
+      mergeMap(({ now, network }) => {
+        const name = moment.utc(now).format() + ".json";
+        return saveJSON(path.join(outDir, name), network);
+      })
+    )
+    .subscribe();
+} catch (e) {
+  console.error(e);
+  process.exit(1);
+}
