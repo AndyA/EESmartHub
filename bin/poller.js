@@ -25,7 +25,7 @@ async function saveJSON(file, data) {
     const sh = new SmartHub(config.router);
     const outDir = path.join(config.state, "network");
 
-    const feed$ = cron(config.interval / 10).pipe(
+    const feed$ = cron(config.interval).pipe(
       mergeMap(now => Promise.props({ now, network: sh.getMyNetwork() })),
       multicast(new BehaviorSubject()),
       refCount(),
