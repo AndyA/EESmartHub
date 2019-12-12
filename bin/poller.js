@@ -9,33 +9,33 @@ const mkdirp = Promise.promisify(require("mkdirp"));
 const path = require("path");
 const writeFileAtomic = Promise.promisify(require("write-file-atomic"));
 const moment = require("moment");
+const { mergeMap } = require("rxjs/operators");
+const { cron } = require("rxx");
 
 async function saveJSON(file, data) {
+  console.log(`Saving ${file}`);
   const dir = path.dirname(file);
   await mkdirp(dir);
   await writeFileAtomic(file, JSON.stringify(data, null, 2));
 }
 
-async function pollSmartHub(sh, outFile) {
-  const network = await sh.getMyNetwork();
-  console.log(`Saving ${outFile}`);
-  await saveJSON(outFile, network);
-}
-
-async function poller(sh, interval, outDir) {
-  while (true) {
-    const now = new Date().getTime();
-    const next = Math.floor((now + interval - 1) / interval) * interval;
-    await Promise.delay(next - now);
-    const name = moment.utc(next).format() + ".json";
-    await pollSmartHub(sh, path.join(outDir, name));
-  }
-}
-
 (async () => {
   try {
     const sh = new SmartHub(config.router);
-    await poller(sh, config.interval, path.join(config.state, "network"));
+    const outDir = path.join(config.state, "network");
+
+    const feed$ = cron(config.interval).pipe(
+      mergeMap(now => Promise.props({ now, network: sh.getMyNetwork() }))
+    );
+
+    feed$
+      .pipe(
+        mergeMap(({ now, network }) => {
+          const name = moment.utc(now).format() + ".json";
+          return saveJSON(path.join(outDir, name), network);
+        })
+      )
+      .subscribe();
   } catch (e) {
     console.error(e);
     process.exit(1);

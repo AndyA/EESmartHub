@@ -17,6 +17,7 @@
     "lodash": "^4.17.15",
     "mkdirp": "^0.5.1",
     "moment": "^2.24.0",
+    "rxjs": "^6.5.3",
     "write-file-atomic": "^3.0.1"
   },
   "devDependencies": {
