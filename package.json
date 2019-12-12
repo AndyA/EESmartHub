@@ -19,7 +19,10 @@
     "moment": "^2.24.0",
     "write-file-atomic": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
