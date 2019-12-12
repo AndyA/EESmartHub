@@ -41,5 +41,3 @@ async function poller(sh, interval, outDir) {
     process.exit(1);
   }
 })();
-
-// curl 'http://192.168.1.1/cgi/cgi_myNetwork.js'
