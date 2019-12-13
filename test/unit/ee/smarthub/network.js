@@ -23,7 +23,7 @@ describe("Network", () => {
       ip: "192.168.1.128",
       ipv6: "",
       name: "bee",
-      activity: "1",
+      activity: 1,
       os: "Unknown",
       device: "Server",
       time_first_seen: "2019/12/05 10:14:34",
@@ -31,20 +31,27 @@ describe("Network", () => {
       dhcp_option: "NA",
       port: "eth0_5",
       ipv6_ll: "::",
-      activity_ip: "1",
-      activity_ipv6_ll: "0",
-      activity_ipv6: "0",
+      activity_ip: 1,
+      activity_ipv6_ll: 0,
+      activity_ipv6: 0,
       device_oui: "NA",
       device_serial: "NA",
       device_class: "NA",
-      reconnected: "0",
-      rate: {
-        timestamp: "0",
-        app: "0",
-        mac: "74:d4:35:4d:88:64",
-        tx: "4804485",
-        rx: "12588336"
-      }
+      reconnected: 0,
+      rate: [
+        {
+          timestamp: 0,
+          app: 0,
+          mac: "74:d4:35:4d:88:64",
+          tx: 4804485,
+          rx: 12588336
+        }
+      ]
     });
+  });
+
+  it("should get uptime", () => {
+    const nw = new Network(testData);
+    expect(nw.uptime).to.equal(17062);
   });
 });

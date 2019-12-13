@@ -4,11 +4,14 @@ require("../lib/use");
 
 const config = require("config");
 const { SmartHub } = require("ee/smarthub");
+const DB = require("db/smarthub");
 const Promise = require("bluebird");
 const mkdirp = Promise.promisify(require("mkdirp"));
 const path = require("path");
 const writeFileAtomic = Promise.promisify(require("write-file-atomic"));
+const nano = require("nano");
 const moment = require("moment");
+const _ = require("lodash");
 const { BehaviorSubject } = require("rxjs");
 const { mergeMap, multicast, refCount, filter } = require("rxjs/operators");
 const { cron } = require("rxx");
@@ -21,6 +24,7 @@ async function saveJSON(file, data) {
 }
 
 try {
+  const db = new DB(nano(config.db.url));
   const sh = new SmartHub(config.router);
   const outDir = path.join(config.state, "network");
 
@@ -30,6 +34,12 @@ try {
     refCount(),
     filter(Boolean)
   );
+
+  feed$
+    .pipe(
+      mergeMap(({ now, network }) => db.stashSample(moment.utc(now), network))
+    )
+    .subscribe();
 
   feed$
     .pipe(
