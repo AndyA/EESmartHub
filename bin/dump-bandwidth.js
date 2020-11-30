@@ -1,115 +1,80 @@
 "use strict";
 
 require("../lib/use");
-const config = require("config");
-const { Network } = require("ee/smarthub");
-const Promise = require("bluebird");
-const path = require("path");
-const fs = Promise.promisifyAll(require("fs"));
-const moment = require("moment");
+
 const _ = require("lodash");
-//const { BehaviorSubject } = require("rxjs");
-//const { mergeMap, multicast, refCount, filter } = require("rxjs/operators");
-//const { cron } = require("rxx");
+const config = require("config");
+const nano = require("nano");
+const printf = require("printf");
 
-async function loadJSON(file) {
-  return JSON.parse(await fs.readFileAsync(file, "utf8"));
-}
+const invertIndex = index => {
+  const out = {};
+  for (const [k0, i1] of Object.entries(index))
+    for (const [k1, info] of Object.entries(i1))
+      (out[k1] = out[k1] || {})[k0] = info;
+  return out;
+};
 
-async function timeSeries(samples) {
-  const inventory = {};
-  const series = [];
+const makeIndex = stats => ({
+  stats: stats.stats,
+  known: _(stats.network.network.known_device_list)
+    .filter(Boolean)
+    .flatMap(dev => dev.mac.split(/,/).map(mac => ({ ...dev, mac })))
+    .groupBy("mac")
+    .value(),
+  rate: _(stats.network.network.rate).filter(Boolean).groupBy("mac").value(),
+  arp: _(stats.network.network.arp_entry)
+    .filter(Boolean)
+    .map(([ip, mac, idx, nif]) => ({
+      ip,
+      mac: mac.toLowerCase(),
+      idx,
+      nif
+    }))
+    .groupBy("mac")
+    .value()
+});
 
-  let prev;
-  for (const { file, ts } of samples) {
-    console.error(ts);
-    const network = new Network(await loadJSON(file));
-    const hosts = network.indexByMAC;
-    if (prev && prev.network.uptime < network.uptime) {
-      const dt = ts.diff(prev.ts, "seconds");
-      const stats = {};
-      for (const [mac, info] of Object.entries(hosts)) {
-        const prevInfo = prev.network.indexByMAC[mac];
-        if (!prevInfo || !prevInfo.rate || !info.rate) continue;
-        stats[mac] = {
-          rx: (info.rate[0].rx - prevInfo.rate[0].rx) / dt,
-          tx: (info.rate[0].tx - prevInfo.rate[0].tx) / dt
-        };
-      }
-      series.push({ ts, stats });
-    }
-    prev = { file, ts, network };
-    _.merge(inventory, hosts);
+const cmp = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
+
+function analyse(stats) {
+  const index = makeIndex(stats);
+  const macs = _(index)
+    .mapValues(Object.keys)
+    .values()
+    .flatten()
+    .uniq()
+    .sort()
+    .value();
+
+  const rep = [];
+  for (const mac of macs) {
+    const found = Object.entries(index)
+      .flatMap(([kind, idx]) => (idx[mac] ? [kind] : []))
+      .join(", ");
+    const info = _.head(index.known[mac] || [{}]);
+    const hostname = info.hostname || info.ip || "unknown";
+    rep.push({ mac, hostname, found });
   }
-  return { inventory, series };
+  rep.sort(
+    (a, b) =>
+      cmp(a.hostname.toLowerCase(), b.hostname.toLowerCase()) ||
+      cmp(a.mac || b.mac)
+  );
+  for (const { mac, hostname, found } of rep)
+    console.log(printf("%s %-30s %s", mac, hostname, found));
 }
 
-function mergeSeries(series, quantum = "hour") {
-  const qt = ts => moment.utc(ts).startOf(quantum);
-  return Object.entries(
-    _.groupBy(
-      series.map(({ ts, stats }) => ({ ts, stats, qts: qt(ts) })),
-      ({ qts }) => qts.format()
-    )
-  )
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(s => s[1])
-    .map(s => {
-      const count = s.length;
-      return _.cloneDeepWith(
-        _.mergeWith({}, ...s, (obj, src) => {
-          if (_.isNumber(obj) && _.isNumber(src)) return obj + src;
-        }),
-        v => {
-          if (_.isNumber(v)) return v / count;
-        }
-      );
-    })
-    .map(({ qts, stats }) => ({ ts: qts, stats }));
-}
-
-function report({ inventory, series }, channel = "rx") {
-  const getName = info => info.name || info.hostname || info.ip || info.mac;
-  // B/s -> Mb/s
-  const scale = bs => (bs * 8) / 1024 / 1024;
-
-  const rows = [];
-  const cols = Object.values(inventory)
-    .map(info => ({ ...info, tag: getName(info) }))
-    .sort((a, b) => a.tag.localeCompare(b.tag));
-  // Header rows
-  rows.push(["", ...cols.map(info => info.tag)]);
-  rows.push(["", ...cols.map(info => info.ip || info.mac)]);
-
-  for (const { ts, stats } of series) {
-    rows.push([
-      ts.format(),
-      ...cols
-        .map(c => c.mac)
-        .map(mac => (stats[mac] && scale(stats[mac][channel])) || "")
-    ]);
-  }
-
-  return rows;
+function report(stats) {
+  const index = invertIndex(makeIndex(stats));
+  console.log(index);
 }
 
 (async () => {
   try {
-    const dataDir = path.join(config.state, "network");
-    const samples = (await fs.readdirAsync(dataDir))
-      .filter(n => /\.json$/.test(n))
-      .sort()
-      .map(name => ({
-        file: path.join(dataDir, name),
-        ts: moment.utc(name.replace(/\.json$/, ""))
-      }));
-
-    const ts = await timeSeries(samples);
-    ts.series = mergeSeries(ts.series, "hour");
-    const rows = report(ts);
-    for (const row of rows) {
-      console.log(row.join(","));
-    }
+    const db = nano(config.db.url);
+    const stats = await db.get("20201130-14");
+    report(stats);
   } catch (e) {
     console.error(e);
     process.exit(1);
