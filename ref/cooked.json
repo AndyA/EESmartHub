@@ -1762,18 +1762,23 @@
     }
   },
   "network": {
+    "ARP_STATUS_LIST_IP": 0,
+    "ARP_STATUS_LIST_MAC": 1,
+    "sysuptime": 1735067,
+    "serial_no": "+EEH001+1934004797",
+    "MAX_NAT_RULES": 160,
+    "MAX_ACS_RULES": 16,
+    "DHCP_STATUS_LIST_IP": 0,
+    "DHCP_STATUS_LIST_MAC": 1,
+    "DHCP_STATUS_LIST_DEVICE": 2,
+    "DHCP_STATUS_LIST_INTERFACE": 3,
+    "DHCP_STATUS_LIST_LEASETIME": 4,
+    "DHCP_STATUS_LIST_CREATETIME": 5,
+    "sys_up_time": 1735067,
+    "sys_current_time": "Tue, 01 Mar 2022 17:48:25 +0000;1646156905",
     "known_device_list": [
       {
-        "mac": [
-          "02:0f:b5:6d:52:cd",
-          "38:f9:d3:6d:52:cd"
-        ],
         "hostname": "spoon",
-        "ip": [
-          "192.168.2.129",
-          "192.168.1.43"
-        ],
-        "ipv6": [],
         "name": "spoon",
         "activity": 0,
         "os": "Mac OS",
@@ -1781,6 +1786,18 @@
         "time_first_seen": "2019/12/05 10:11:49",
         "time_last_active": "2021/12/11 19:17:27",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D070138F9D36D52CD3204C0A801D63604C0A801FE0C0573706F6F6EFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:6d:52:cd",
+          "38:f9:d3:6d:52:cd"
+        ],
+        "ip": [
+          "192.168.2.129",
+          "192.168.1.43"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -1788,23 +1805,18 @@
           "::",
           "fe80::14d6:1213:2add:9b2b"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "0c:c4:7a:32:29:3c"
-        ],
         "hostname": "hattie",
-        "ip": [
-          "192.168.1.8"
-        ],
-        "ipv6": [],
         "name": "hattie",
         "activity": 0,
         "os": "Unknown",
@@ -1812,29 +1824,34 @@
         "time_first_seen": "2019/12/05 10:14:33",
         "time_last_active": "2021/08/22 04:51:19",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "0c:c4:7a:32:29:3c"
+        ],
+        "ip": [
+          "192.168.1.8"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::ec4:7aff:fe32:293c"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "74:d4:35:4d:88:64"
-        ],
         "hostname": "vole",
-        "ip": [
-          "192.168.2.24"
-        ],
-        "ipv6": [],
         "name": "bee",
         "activity": 1,
         "os": "Unknown",
@@ -1842,26 +1859,49 @@
         "time_first_seen": "2019/12/05 10:14:34",
         "time_last_active": "1970/01/01 00:01:12",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "74:d4:35:4d:88:64"
+        ],
+        "ip": [
+          "192.168.2.24"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::76d4:35ff:fe4d:8864"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
+      },
+      {
+        "hostname": "MacBook",
+        "name": "MacBook",
+        "activity": 1,
+        "os": "Mac OS",
+        "device": "Mac",
+        "time_first_seen": "2019/12/05 10:14:35",
+        "time_last_active": "2022/02/11 14:49:47",
+        "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701A8667F01D0A33204C0A801123604C0A801800C056F7A6F6E65FF",
         "device_oui": "NA",
         "device_serial": "NA",
         "device_class": "NA",
-        "reconnected": 0
-      },
-      {
+        "reconnected": 0,
         "mac": [
           "a8:66:7f:26:b5:3d",
           "8c:85:90:b9:fc:95"
         ],
-        "hostname": "MacBook",
         "ip": [
           "192.168.2.28",
           "192.168.3.39"
@@ -1871,13 +1911,6 @@
           "fdc4:a7da:b1d3:454a:cf3:de06:4603:7178",
           "fdc4:a7da:b1d3:454a:ddf1:3d2b:b4b:dc44"
         ],
-        "name": "MacBook",
-        "activity": 1,
-        "os": "Mac OS",
-        "device": "Mac",
-        "time_first_seen": "2019/12/05 10:14:35",
-        "time_last_active": "2022/02/11 14:49:47",
-        "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701A8667F01D0A33204C0A801123604C0A801800C056F7A6F6E65FF",
         "port": [
           "eth0_5"
         ],
@@ -1885,26 +1918,19 @@
           "fe80::186d:683d:17a7:39f",
           "fe80::f6:1070:76c7:d6c0"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
         "activity_ipv6": [
           0,
           1
-        ],
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        ]
       },
       {
-        "mac": [
-          "90:2b:34:df:3e:55"
-        ],
         "hostname": "trout",
-        "ip": [
-          "192.168.1.13"
-        ],
-        "ipv6": [],
         "name": "trout",
         "activity": 0,
         "os": "Unknown",
@@ -1912,29 +1938,34 @@
         "time_first_seen": "2019/12/05 10:14:36",
         "time_last_active": "2020/01/27 15:06:02",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "90:2b:34:df:3e:55"
+        ],
+        "ip": [
+          "192.168.1.13"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::922b:34ff:fedf:3e55"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "c4:04:15:42:88:d9"
-        ],
         "hostname": "R7000",
-        "ip": [
-          "192.168.1.75"
-        ],
-        "ipv6": [],
         "name": "R7000",
         "activity": 0,
         "os": "Unknown",
@@ -1942,29 +1973,34 @@
         "time_first_seen": "2019/12/05 10:14:36",
         "time_last_active": "2021/05/14 10:21:13",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "c4:04:15:42:88:d9"
+        ],
+        "ip": [
+          "192.168.1.75"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::c604:15ff:fe42:88d9"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "b8:27:eb:72:3c:e9"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.1.132"
-        ],
-        "ipv6": [],
         "name": "dmz",
         "activity": 1,
         "os": "Unknown",
@@ -1972,29 +2008,34 @@
         "time_first_seen": "2019/12/05 10:14:36",
         "time_last_active": "1970/01/01 00:01:10",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "b8:27:eb:72:3c:e9"
+        ],
+        "ip": [
+          "192.168.1.132"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::ba27:ebff:fe72:3ce9"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "fc:aa:14:6a:7e:4d"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.1.131"
-        ],
-        "ipv6": [],
         "name": "emit",
         "activity": 1,
         "os": "Windows",
@@ -2002,29 +2043,34 @@
         "time_first_seen": "2019/12/05 10:14:37",
         "time_last_active": "1970/01/01 00:01:10",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "fc:aa:14:6a:7e:4d"
+        ],
+        "ip": [
+          "192.168.1.131"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::feaa:14ff:fe6a:7e4d"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "6c:2b:59:89:b5:cf"
-        ],
         "hostname": "stilt",
-        "ip": [
-          "192.168.1.19"
-        ],
-        "ipv6": [],
         "name": "stilt",
         "activity": 1,
         "os": "Unknown",
@@ -2032,33 +2078,34 @@
         "time_first_seen": "2019/12/05 10:14:37",
         "time_last_active": "1970/01/01 00:01:11",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "6c:2b:59:89:b5:cf"
+        ],
+        "ip": [
+          "192.168.1.19"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::6e2b:59ff:fe89:b5cf"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "02:0f:b5:d2:7e:13",
-          "c4:b3:01:d2:7e:13"
-        ],
         "hostname": "kumina",
-        "ip": [
-          "192.168.2.131",
-          "192.168.1.47"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:c70:3502:1c85:46d6"
-        ],
         "name": "kumina",
         "activity": 1,
         "os": "Mac OS",
@@ -2066,6 +2113,21 @@
         "time_first_seen": "2019/12/05 10:14:46",
         "time_last_active": "2022/02/21 10:52:58",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701C4B301D27E1333040076A7000C066B756D696E61FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:d2:7e:13",
+          "c4:b3:01:d2:7e:13"
+        ],
+        "ip": [
+          "192.168.2.131",
+          "192.168.1.47"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:c70:3502:1c85:46d6"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2073,7 +2135,9 @@
           "::",
           "fe80::14e6:7de8:345a:efbf"
         ],
-        "activity_ip": 0,
+        "activity_ip": [
+          0
+        ],
         "activity_ipv6_ll": [
           0,
           1
@@ -2081,29 +2145,10 @@
         "activity_ipv6": [
           0,
           1
-        ],
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        ]
       },
       {
-        "mac": [
-          "f8:e9:4e:a8:d2:9c",
-          "02:0f:b5:a8:d2:9c",
-          "7e:0e:c4:98:27:99",
-          "02:0f:b5:7c:63:ff",
-          "02:0f:b5:d6:ef:48"
-        ],
         "hostname": "smoophonex",
-        "ip": [
-          "192.168.1.91",
-          "192.168.2.24",
-          "192.168.2.177",
-          "192.168.2.6",
-          "192.168.2.2"
-        ],
-        "ipv6": [],
         "name": "smoophonex",
         "activity": 1,
         "os": "iOS",
@@ -2111,6 +2156,24 @@
         "time_first_seen": "2019/12/05 10:14:46",
         "time_last_active": "2022/02/28 03:36:59",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701F8E94EA8D29C3204C0A8015333040076A7000C0A736D6F6F70686F6E6578FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "f8:e9:4e:a8:d2:9c",
+          "02:0f:b5:a8:d2:9c",
+          "7e:0e:c4:98:27:99",
+          "02:0f:b5:7c:63:ff",
+          "02:0f:b5:d6:ef:48"
+        ],
+        "ip": [
+          "192.168.1.91",
+          "192.168.2.24",
+          "192.168.2.177",
+          "192.168.2.6",
+          "192.168.2.2"
+        ],
         "port": [
           "eth0_5",
           "eth02019/12/05 10:14:46"
@@ -2122,23 +2185,18 @@
           "fe80::1479:1989:2c33:9763",
           "fe80::1892:c45e:a550:3324"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "0c:c4:7a:36:43:34"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.15.1"
-        ],
-        "ipv6": [],
         "name": "hattie-management",
         "activity": 0,
         "os": "Unknown",
@@ -2146,29 +2204,34 @@
         "time_first_seen": "2019/12/05 10:18:36",
         "time_last_active": "2021/11/29 12:48:38",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "0c:c4:7a:36:43:34"
+        ],
+        "ip": [
+          "192.168.15.1"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::ec4:7aff:fe36:4334"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "c0:3f:d5:6c:84:73"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.1.70"
-        ],
-        "ipv6": [],
         "name": "nuce",
         "activity": 0,
         "os": "Unknown",
@@ -2176,29 +2239,34 @@
         "time_first_seen": "2019/12/05 10:35:25",
         "time_last_active": "1970/01/01 00:01:10",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "c0:3f:d5:6c:84:73"
+        ],
+        "ip": [
+          "192.168.1.70"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "38:c9:86:23:39:19"
-        ],
         "hostname": "pringle",
-        "ip": [
-          "192.168.1.23"
-        ],
-        "ipv6": [],
         "name": "pringle",
         "activity": 0,
         "os": "Mac OS",
@@ -2206,29 +2274,34 @@
         "time_first_seen": "2019/12/05 16:26:08",
         "time_last_active": "2019/12/29 21:21:33",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701ACBC32EFAF273204C0A801063604C0A801800C077072696E676C65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "38:c9:86:23:39:19"
+        ],
+        "ip": [
+          "192.168.1.23"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::1ce4:bdab:4ec9:f15a"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "6c:2b:59:89:b5:c9"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.1.9"
-        ],
-        "ipv6": [],
         "name": "stilt-management",
         "activity": 1,
         "os": "Unknown",
@@ -2236,33 +2309,34 @@
         "time_first_seen": "2019/12/06 08:04:57",
         "time_last_active": "2022/03/01 17:29:41",
         "dhcp_option": "3501033D07016C2B5989B5C937012B3C0E6944524143446973636F76657279FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "6c:2b:59:89:b5:c9"
+        ],
+        "ip": [
+          "192.168.1.9"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "f0:98:9d:5f:0b:be",
-          "4a:1a:1a:3a:ed:e2",
-          "02:0f:b5:73:e0:06"
-        ],
         "hostname": "Megs-iphone",
-        "ip": [
-          "192.168.2.27",
-          "192.168.2.36",
-          "192.168.2.37"
-        ],
-        "ipv6": [],
         "name": "Megs-iphone",
         "activity": 0,
         "os": "iOS",
@@ -2270,6 +2344,20 @@
         "time_first_seen": "2019/12/06 17:27:24",
         "time_last_active": "2021/03/13 11:47:41",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701F0989D5F0BBE3204C0A8010F3604C0A801800C0B4D6567732D6970686F6E65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "f0:98:9d:5f:0b:be",
+          "4a:1a:1a:3a:ed:e2",
+          "02:0f:b5:73:e0:06"
+        ],
+        "ip": [
+          "192.168.2.27",
+          "192.168.2.36",
+          "192.168.2.37"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2277,25 +2365,18 @@
           "fe80::8fc:10a2:81b0:87cd",
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "a0:d7:95:ba:b2:73",
-          "5a:37:37:95:c6:10"
-        ],
         "hostname": "Raouls-iPhone",
-        "ip": [
-          "192.168.2.5",
-          "192.168.2.35"
-        ],
-        "ipv6": [],
         "name": "Raouls-iPhone",
         "activity": 0,
         "os": "iOS",
@@ -2303,6 +2384,18 @@
         "time_first_seen": "2019/12/06 17:27:41",
         "time_last_active": "2021/04/24 16:31:01",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701A0D795BAB2733204C0A801443604C0A801800C0D52616F756C732D6950686F6E65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "a0:d7:95:ba:b2:73",
+          "5a:37:37:95:c6:10"
+        ],
+        "ip": [
+          "192.168.2.5",
+          "192.168.2.35"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2310,23 +2403,18 @@
           "fe80::1407:6e75:c7c0:2591",
           "fe80::d9:4c17:4369:1540"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "60:f1:89:88:39:3a"
-        ],
         "hostname": "Samsung-Galaxy-S7-edge",
-        "ip": [
-          "192.168.2.8"
-        ],
-        "ipv6": [],
         "name": "Samsung-Galaxy-S7-edge",
         "activity": 0,
         "os": "Unknown",
@@ -2334,29 +2422,34 @@
         "time_first_seen": "2019/12/09 15:28:42",
         "time_last_active": "2020/10/05 16:39:10",
         "dhcp_option": "3501033D070160F18988393A3204C0A801153604C0A80180390205DC3C12616E64726F69642D646863702D382E302E300C1653616D73756E672D47616C6178792D53372D65646765370A0103060F1A1C333A3B2BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "60:f1:89:88:39:3a"
+        ],
+        "ip": [
+          "192.168.2.8"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::62f1:89ff:fe88:393a"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "74:81:14:c3:c0:d7"
-        ],
         "hostname": "iPad-5",
-        "ip": [
-          "192.168.1.52"
-        ],
-        "ipv6": [],
         "name": "iPad-5",
         "activity": 0,
         "os": "iOS",
@@ -2364,37 +2457,34 @@
         "time_first_seen": "2019/12/13 00:04:39",
         "time_last_active": "2019/12/13 05:27:02",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701748114C3C0D73204C0A801343604C0A801800C06695061642D35FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "74:81:14:c3:c0:d7"
+        ],
+        "ip": [
+          "192.168.1.52"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "ac:29:3a:b3:bb:d1",
-          "3c:2e:ff:88:4a:ec",
-          "bc:e1:43:7e:8c:be",
-          "d0:3f:aa:df:5a:e2",
-          "2e:bf:0f:8e:01:4e"
-        ],
         "hostname": "iPhone",
-        "ip": [
-          "192.168.2.7",
-          "192.168.2.154",
-          "192.168.2.167",
-          "192.168.2.173",
-          "192.168.3.40"
-        ],
-        "ipv6": [],
         "name": "iPhone",
         "activity": 0,
         "os": "iOS",
@@ -2402,6 +2492,24 @@
         "time_first_seen": "2019/12/15 14:15:07",
         "time_last_active": "2021/12/12 13:29:55",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701AC293AB3BBD13204C0A8014C3604C0A801810C066950686F6E65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "ac:29:3a:b3:bb:d1",
+          "3c:2e:ff:88:4a:ec",
+          "bc:e1:43:7e:8c:be",
+          "d0:3f:aa:df:5a:e2",
+          "2e:bf:0f:8e:01:4e"
+        ],
+        "ip": [
+          "192.168.2.7",
+          "192.168.2.154",
+          "192.168.2.167",
+          "192.168.2.173",
+          "192.168.3.40"
+        ],
         "port": [
           "eth0_5",
           "eth02019/12/15 14:15:07"
@@ -2412,23 +2520,18 @@
           "::",
           "fe80::402:966c:1b47:d783"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "30:cd:a7:ba:cc:06"
-        ],
         "hostname": "SCRIBBLE",
-        "ip": [
-          "192.168.1.55"
-        ],
-        "ipv6": [],
         "name": "SCRIBBLE",
         "activity": 0,
         "os": "Unknown",
@@ -2436,29 +2539,34 @@
         "time_first_seen": "2019/12/15 15:16:52",
         "time_last_active": "1970/01/01 00:01:57",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "30:cd:a7:ba:cc:06"
+        ],
+        "ip": [
+          "192.168.1.55"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "c0:e8:62:db:86:8a"
-        ],
         "hostname": "TonyWebiPhone6s",
-        "ip": [
-          "192.168.2.9"
-        ],
-        "ipv6": [],
         "name": "TonyWebiPhone6s",
         "activity": 0,
         "os": "iOS",
@@ -2466,33 +2574,34 @@
         "time_first_seen": "2019/12/15 17:00:36",
         "time_last_active": "2020/09/20 19:25:28",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701C0E862DB868A3204C0A8011C3604C0A801800C0F546F6E795765626950686F6E653673FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "c0:e8:62:db:86:8a"
+        ],
+        "ip": [
+          "192.168.2.9"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::8:b818:6a55:e71d"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "02:0f:b5:83:01:63",
-          "a4:83:e7:83:01:63"
-        ],
         "hostname": "smoobookair",
-        "ip": [
-          "192.168.2.26",
-          "192.168.3.52"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:1874:a6f8:1398:a477"
-        ],
         "name": "smoobookair",
         "activity": 1,
         "os": "Mac OS",
@@ -2500,6 +2609,21 @@
         "time_first_seen": "2019/12/20 13:54:17",
         "time_last_active": "2022/02/28 07:14:43",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701A483E78301633204C0A801413604C0A801800C0B736D6F6F626F6F6B616972FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:83:01:63",
+          "a4:83:e7:83:01:63"
+        ],
+        "ip": [
+          "192.168.2.26",
+          "192.168.3.52"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:1874:a6f8:1398:a477"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2507,7 +2631,9 @@
           "::",
           "fe80::1c52:e0d1:64ef:430a"
         ],
-        "activity_ip": 0,
+        "activity_ip": [
+          0
+        ],
         "activity_ipv6_ll": [
           0,
           1
@@ -2515,21 +2641,10 @@
         "activity_ipv6": [
           0,
           1
-        ],
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        ]
       },
       {
-        "mac": [
-          "4c:72:b9:e2:04:64"
-        ],
         "hostname": "recover",
-        "ip": [
-          "192.168.1.98"
-        ],
-        "ipv6": [],
         "name": "recover",
         "activity": 0,
         "os": "Linux",
@@ -2537,29 +2652,34 @@
         "time_first_seen": "2020/01/07 15:49:26",
         "time_last_active": "2020/01/07 17:21:04",
         "dhcp_option": "3501033604C0A801813204C0A801623708011C02030F060C2A3C03642D69FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "4c:72:b9:e2:04:64"
+        ],
+        "ip": [
+          "192.168.1.98"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::4e72:b9ff:fee2:464"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "fc:aa:14:13:cc:8f"
-        ],
         "hostname": "wasp",
-        "ip": [
-          "192.168.2.1"
-        ],
-        "ipv6": [],
         "name": "wasp",
         "activity": 0,
         "os": "Unknown",
@@ -2567,35 +2687,34 @@
         "time_first_seen": "2020/01/09 16:16:31",
         "time_last_active": "2020/01/09 21:30:36",
         "dhcp_option": "3501033D13FFCB390AC700020000AB11AAFEAFCDF5882DE4370901030C0F061A21792A390202403604C0A801813204C0A801300C0D7562756E74752D736572766572FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "fc:aa:14:13:cc:8f"
+        ],
+        "ip": [
+          "192.168.2.1"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::feaa:14ff:fe13:cc8f"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "02:0f:b5:86:72:d3",
-          "02:0f:b5:cc:98:c0",
-          "02:0f:b5:86:72:cb",
-          "62:fa:9e:ec:4c:6e"
-        ],
         "hostname": "Andys-iPad",
-        "ip": [
-          "192.168.2.181",
-          "192.168.2.22",
-          "192.168.2.189",
-          "192.168.2.192"
-        ],
-        "ipv6": [],
         "name": "Andys-iPad",
         "activity": 0,
         "os": "iOS",
@@ -2603,6 +2722,22 @@
         "time_first_seen": "2020/01/15 16:58:43",
         "time_last_active": "2021/01/25 13:24:32",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701E8B2AC8672D33204C0A802023604C0A801800C0A416E6479732D69506164FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:86:72:d3",
+          "02:0f:b5:cc:98:c0",
+          "02:0f:b5:86:72:cb",
+          "62:fa:9e:ec:4c:6e"
+        ],
+        "ip": [
+          "192.168.2.181",
+          "192.168.2.22",
+          "192.168.2.189",
+          "192.168.2.192"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2611,23 +2746,18 @@
           "fe80::881:9374:abe8:8f65",
           "fe80::813:46e3:6e0d:2ca1"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "70:56:81:a2:5b:79"
-        ],
         "hostname": "Fis-MacBook-Air",
-        "ip": [
-          "192.168.2.3"
-        ],
-        "ipv6": [],
         "name": "Fis-MacBook-Air",
         "activity": 0,
         "os": "Mac OS",
@@ -2635,29 +2765,34 @@
         "time_first_seen": "2020/01/24 11:43:06",
         "time_last_active": "2020/02/11 16:13:46",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701705681A25B793204C0A802033604C0A801800C0F4669732D4D6163426F6F6B2D416972FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "70:56:81:a2:5b:79"
+        ],
+        "ip": [
+          "192.168.2.3"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "b8:27:eb:6f:e8:7e"
-        ],
         "hostname": "hydra",
-        "ip": [
-          "192.168.2.4"
-        ],
-        "ipv6": [],
         "name": "hydra",
         "activity": 0,
         "os": "Unknown",
@@ -2665,29 +2800,34 @@
         "time_first_seen": "2020/01/24 13:51:12",
         "time_last_active": "2021/05/14 13:00:20",
         "dhcp_option": "3501033D0701B827EB6FE87E3204C0A802043604C0A80180390205C03C2A6468637063642D372E302E383A4C696E75782D342E31392E37352B3A61726D76366C3A42434D323833350C056879647261910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "b8:27:eb:6f:e8:7e"
+        ],
+        "ip": [
+          "192.168.2.4"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::f39c:f7c0:8269:18dc"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "d0:81:7a:c8:bd:7c"
-        ],
         "hostname": "Raouls-Air",
-        "ip": [
-          "192.168.2.6"
-        ],
-        "ipv6": [],
         "name": "Raouls-Air",
         "activity": 0,
         "os": "Mac OS",
@@ -2695,29 +2835,34 @@
         "time_first_seen": "2020/01/25 06:30:09",
         "time_last_active": "2020/10/10 12:22:02",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701D0817AC8BD7C3204C0A802063604C0A801800C0A52616F756C732D416972FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "d0:81:7a:c8:bd:7c"
+        ],
+        "ip": [
+          "192.168.2.6"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::1018:f570:2953:af2e"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "1c:5c:f2:b4:7c:61"
-        ],
         "hostname": "Fis-iPhone",
-        "ip": [
-          "192.168.2.10"
-        ],
-        "ipv6": [],
         "name": "Fis-iPhone",
         "activity": 0,
         "os": "iOS",
@@ -2725,31 +2870,34 @@
         "time_first_seen": "2020/02/06 10:06:33",
         "time_last_active": "2020/05/12 10:26:05",
         "dhcp_option": "3501033707017903060F77FC390205DC3D07011C5CF2B47C613204C0A8020A3604C0A801800C0A4669732D6950686F6E65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "1c:5c:f2:b4:7c:61"
+        ],
+        "ip": [
+          "192.168.2.10"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::48a:ae9d:4040:4582"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "a4:e9:75:12:6a:d8",
-          "a2:d7:a2:61:28:14"
-        ],
         "hostname": "amandas-iPhone",
-        "ip": [
-          "192.168.2.11",
-          "192.168.3.26"
-        ],
-        "ipv6": [],
         "name": "amandas-iPhone",
         "activity": 0,
         "os": "iOS",
@@ -2757,6 +2905,18 @@
         "time_first_seen": "2020/02/06 18:38:20",
         "time_last_active": "2021/12/07 21:49:43",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701A4E975126AD83204C0A8020B3604C0A801800C0E616D616E6461732D6950686F6E65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "a4:e9:75:12:6a:d8",
+          "a2:d7:a2:61:28:14"
+        ],
+        "ip": [
+          "192.168.2.11",
+          "192.168.3.26"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2764,23 +2924,18 @@
           "fe80::18bc:99c8:186c:3d18",
           "fe80::1433:360e:9668:cf9a"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "14:10:9f:d8:8b:75"
-        ],
         "hostname": "elvet",
-        "ip": [
-          "192.168.2.12"
-        ],
-        "ipv6": [],
         "name": "elvet",
         "activity": 0,
         "os": "Mac OS",
@@ -2788,31 +2943,34 @@
         "time_first_seen": "2020/02/06 18:45:28",
         "time_last_active": "2020/03/15 12:00:57",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D070114109FD88B753204C0A8020C3604C0A801800C05656C766574FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "14:10:9f:d8:8b:75"
+        ],
+        "ip": [
+          "192.168.2.12"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:b8:5f:a1",
-          "dc:a6:32:01:73:7d",
-          "dc:a6:32:03:1b:f4"
-        ],
         "hostname": "avalanche1",
-        "ip": [
-          "192.168.2.14"
-        ],
-        "ipv6": [],
         "name": "avalanche1",
         "activity": 0,
         "os": "Unknown",
@@ -2820,6 +2978,18 @@
         "time_first_seen": "2020/02/19 15:51:50",
         "time_last_active": "2021/11/09 13:56:52",
         "dhcp_option": "3501033D0701DCA6320178D53204C0A8020E390205C03C2E6468637063642D382E312E323A4C696E75782D342E31392E39372D76376C2B3A61726D76376C3A42434D323833350C0A6176616C616E63686531910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:b8:5f:a1",
+          "dc:a6:32:01:73:7d",
+          "dc:a6:32:03:1b:f4"
+        ],
+        "ip": [
+          "192.168.2.14"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2828,25 +2998,18 @@
           "::",
           "fe80::f549:61c2:fbd5:4cfb"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:03:21:ec",
-          "dc:a6:32:01:78:d5"
-        ],
         "hostname": "avalanche2",
-        "ip": [
-          "192.168.2.16",
-          "192.168.2.230"
-        ],
-        "ipv6": [],
         "name": "avalanche2",
         "activity": 0,
         "os": "Unknown",
@@ -2854,6 +3017,18 @@
         "time_first_seen": "2020/02/20 10:48:39",
         "time_last_active": "2021/03/15 14:33:41",
         "dhcp_option": "3501033D0701DCA6320321EC3204C0A8020E390205C03C2E6468637063642D382E312E323A4C696E75782D342E31392E39372D76376C2B3A61726D76376C3A42434D323833350C0A6176616C616E63686532910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:03:21:ec",
+          "dc:a6:32:01:78:d5"
+        ],
+        "ip": [
+          "192.168.2.16",
+          "192.168.2.230"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -2861,23 +3036,18 @@
           "::",
           "fe80::1689:e8b1:4195:dc0d"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "94:65:2d:d1:c5:6d"
-        ],
         "hostname": "OnePlus5T",
-        "ip": [
-          "192.168.2.10"
-        ],
-        "ipv6": [],
         "name": "OnePlus5T",
         "activity": 0,
         "os": "Unknown",
@@ -2885,29 +3055,34 @@
         "time_first_seen": "2020/03/21 15:17:17",
         "time_last_active": "2021/04/17 13:27:31",
         "dhcp_option": "3501033D070194652DD1C56D3204C0A802123604C0A80180390205DC3C0E616E64726F69642D646863702D390C094F6E65506C75733554370A0103060F1A1C333A3B2BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "94:65:2d:d1:c5:6d"
+        ],
+        "ip": [
+          "192.168.2.10"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::9665:2dff:fed1:c56d"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "fc:c2:de:c7:33:63"
-        ],
         "hostname": "android-2c9d667f57fa9690",
-        "ip": [
-          "192.168.1.7"
-        ],
-        "ipv6": [],
         "name": "android-2c9d667f57fa9690",
         "activity": 0,
         "os": "Android",
@@ -2915,29 +3090,34 @@
         "time_first_seen": "2020/03/23 12:35:01",
         "time_last_active": "2020/11/26 09:20:40",
         "dhcp_option": "3501033D0701FCC2DEC733633204C0A80107390205DC3C0C6468637063642D352E352E360C18616E64726F69642D623163346638663139666137663362303709012103060F1C333A3BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "fc:c2:de:c7:33:63"
+        ],
+        "ip": [
+          "192.168.1.7"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::fec2:deff:fec7:3363"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "04:e5:36:0d:fa:7c"
-        ],
         "hostname": "hjsteelernetcom",
-        "ip": [
-          "192.168.2.242"
-        ],
-        "ipv6": [],
         "name": "hjsteelernetcom",
         "activity": 0,
         "os": "iOS",
@@ -2945,29 +3125,34 @@
         "time_first_seen": "2020/03/23 17:27:18",
         "time_last_active": "2022/01/15 12:40:56",
         "dhcp_option": "3501033707017903060F77FC390205DC3D070104E5360DFA7C3204C0A802133604C0A801800C0F686A737465656C65726E6574636F6DFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "04:e5:36:0d:fa:7c"
+        ],
+        "ip": [
+          "192.168.2.242"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::8a3:c039:1180:7b47"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "6c:b0:ce:b1:59:d6"
-        ],
         "hostname": "EX6100",
-        "ip": [
-          "192.168.2.196"
-        ],
-        "ipv6": [],
         "name": "EX6100",
         "activity": 0,
         "os": "Unknown",
@@ -2975,29 +3160,34 @@
         "time_first_seen": "2020/05/25 13:30:17",
         "time_last_active": "2020/12/02 11:20:24",
         "dhcp_option": "3501033D07016CB0CEB159D60C064558363130303C0B756468637020302E392E383204C0A802143604C0A80180370A0103060C0F1C212C79F9FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "6c:b0:ce:b1:59:d6"
+        ],
+        "ip": [
+          "192.168.2.196"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "6e:b0:ce:b0:59:d6"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.196"
-        ],
-        "ipv6": [],
         "name": "unknown_6E:B0:CE:B0:59:D6",
         "activity": 0,
         "os": "Unknown",
@@ -3005,31 +3195,34 @@
         "time_first_seen": "2020/05/25 13:30:23",
         "time_last_active": "2021/02/28 13:53:46",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "6e:b0:ce:b0:59:d6"
+        ],
+        "ip": [
+          "192.168.2.196"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "02:0f:b5:bd:26:bd",
-          "98:5a:eb:da:b8:15"
-        ],
         "hostname": "plinth",
-        "ip": [
-          "192.168.2.135",
-          "192.168.1.26"
-        ],
-        "ipv6": [],
         "name": "plinth",
         "activity": 0,
         "os": "Mac OS",
@@ -3037,6 +3230,18 @@
         "time_first_seen": "2020/06/01 11:05:01",
         "time_last_active": "2022/01/07 16:00:40",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701B8098ABD26BD000000000000000000000000000000000000000000",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:bd:26:bd",
+          "98:5a:eb:da:b8:15"
+        ],
+        "ip": [
+          "192.168.2.135",
+          "192.168.1.26"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -3044,25 +3249,18 @@
           "fe80::1cdd:e4f5:55f8:d8e0",
           "fe80::8f:92:889c:3bcd"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "02:0f:b5:bc:c5:44",
-          "8c:85:90:bc:c5:44"
-        ],
         "hostname": "voodoo",
-        "ip": [
-          "192.168.2.129",
-          "192.168.1.44"
-        ],
-        "ipv6": [],
         "name": "voodoo",
         "activity": 0,
         "os": "Mac OS",
@@ -3070,6 +3268,18 @@
         "time_first_seen": "2020/06/30 10:18:53",
         "time_last_active": "2021/05/05 09:00:37",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D07018C8590BCC5443204C0A8012C3604C0A801800C06766F6F646F6FFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:bc:c5:44",
+          "8c:85:90:bc:c5:44"
+        ],
+        "ip": [
+          "192.168.2.129",
+          "192.168.1.44"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -3077,23 +3287,18 @@
           "::",
           "fe80::3f:4849:5c0f:79b9"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "08:00:27:00:21:3a"
-        ],
         "hostname": "raspberry",
-        "ip": [
-          "192.168.2.29"
-        ],
-        "ipv6": [],
         "name": "raspberry",
         "activity": 0,
         "os": "Unknown",
@@ -3101,26 +3306,49 @@
         "time_first_seen": "2020/07/29 14:36:58",
         "time_last_active": "2020/07/29 16:15:56",
         "dhcp_option": "3501033D070108002700213A32040A00020F390205C03C316468637063642D382E312E323A4C696E75782D342E31392E302D382D3638363A693638363A47656E75696E65496E74656C0C0B7261737062657272797069910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "08:00:27:00:21:3a"
+        ],
+        "ip": [
+          "192.168.2.29"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
+      },
+      {
+        "hostname": "ada3",
+        "name": "ada3",
+        "activity": 1,
+        "os": "Unknown",
+        "device": "Unknown",
+        "time_first_seen": "2020/07/29 18:01:18",
+        "time_last_active": "2022/02/11 12:42:07",
+        "dhcp_option": "3501033204C0A802863604C0A801803C20505845436C69656E743A417263683A30303030303A554E44493A303032303031611100525069341431D00032B8600F9696153BFF",
         "device_oui": "NA",
         "device_serial": "NA",
         "device_class": "NA",
-        "reconnected": 0
-      },
-      {
+        "reconnected": 0,
         "mac": [
           "dc:a6:32:b8:60:0f",
           "dc:a6:32:b8:60:10"
         ],
-        "hostname": "ada3",
         "ip": [
           "192.168.2.30",
           "192.168.3.46"
@@ -3129,13 +3357,6 @@
           "fdc4:a7da:b1d3:454a:2e14:a7c:30df:d731",
           "fdc4:a7da:b1d3:454a:9c45:3ccb:9184:4fcd"
         ],
-        "name": "ada3",
-        "activity": 1,
-        "os": "Unknown",
-        "device": "Unknown",
-        "time_first_seen": "2020/07/29 18:01:18",
-        "time_last_active": "2022/02/11 12:42:07",
-        "dhcp_option": "3501033204C0A802863604C0A801803C20505845436C69656E743A417263683A30303030303A554E44493A303032303031611100525069341431D00032B8600F9696153BFF",
         "port": [
           "eth0_5"
         ],
@@ -3143,23 +3364,18 @@
           "fe80::cbe2:eefd:313a:aced",
           "fe80::8d93:e07e:9344:b083"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:b8:5f:a0"
-        ],
         "hostname": "ada2",
-        "ip": [
-          "192.168.2.135"
-        ],
-        "ipv6": [],
         "name": "ada2",
         "activity": 0,
         "os": "Unknown",
@@ -3167,29 +3383,34 @@
         "time_first_seen": "2020/07/30 11:48:36",
         "time_last_active": "2020/12/24 12:35:33",
         "dhcp_option": "3501033204C0A802883604C0A801803C20505845436C69656E743A417263683A30303030303A554E44493A303032303031611100525069341431D00032B85FA0A47A69FCFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:b8:5f:a0"
+        ],
+        "ip": [
+          "192.168.2.135"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::dea6:32ff:feb8:5fa0"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:01:73:7c"
-        ],
         "hostname": "ada1",
-        "ip": [
-          "192.168.2.137"
-        ],
-        "ipv6": [],
         "name": "ada1",
         "activity": 0,
         "os": "Unknown",
@@ -3197,31 +3418,34 @@
         "time_first_seen": "2020/07/30 14:39:27",
         "time_last_active": "2020/12/24 12:35:29",
         "dhcp_option": "3501033204C0A8028A3604C0A801803C20505845436C69656E743A417263683A30303030303A554E44493A303032303031611100525069341131B0003201737C6EA7756FFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:01:73:7c"
+        ],
+        "ip": [
+          "192.168.2.137"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::dea6:32ff:fe01:737c"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "08:00:27:63:c0:a0",
-          "74:d4:35:c3:c6:45"
-        ],
         "hostname": "rescue",
-        "ip": [
-          "192.168.2.140",
-          "192.168.1.128"
-        ],
-        "ipv6": [],
         "name": "rescue",
         "activity": 1,
         "os": "Unknown",
@@ -3229,6 +3453,18 @@
         "time_first_seen": "2020/07/30 17:08:20",
         "time_last_active": "1970/01/01 00:01:06",
         "dhcp_option": "3501033604C0A801803204C0A8028B0C067562756E74753710011C02030F06770C2C2F1A792AF921FCFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "08:00:27:63:c0:a0",
+          "74:d4:35:c3:c6:45"
+        ],
+        "ip": [
+          "192.168.2.140",
+          "192.168.1.128"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -3240,22 +3476,15 @@
           0,
           1
         ],
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:01:78:d4"
-        ],
         "hostname": "ada0",
-        "ip": [
-          "192.168.2.15"
-        ],
-        "ipv6": [],
         "name": "ada0",
         "activity": 0,
         "os": "Unknown",
@@ -3263,37 +3492,34 @@
         "time_first_seen": "2020/07/30 20:42:13",
         "time_last_active": "2020/12/24 12:35:26",
         "dhcp_option": "3501033204C0A802933604C0A801803C20505845436C69656E743A417263683A30303030303A554E44493A303032303031611100525069341131B000320178D47A34C52EFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:01:78:d4"
+        ],
+        "ip": [
+          "192.168.2.15"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "18:7e:b9:f3:0d:e6",
-          "e8:b2:ac:86:72:d3",
-          "fa:31:4d:91:5d:aa",
-          "fe:c2:90:6b:fc:56",
-          "28:ff:3c:f2:4a:52"
-        ],
         "hostname": "iPad",
-        "ip": [
-          "192.168.2.162",
-          "192.168.2.26",
-          "192.168.2.28",
-          "192.168.2.34",
-          "192.168.3.48"
-        ],
-        "ipv6": [],
         "name": "iPad",
         "activity": 0,
         "os": "iOS",
@@ -3301,6 +3527,24 @@
         "time_first_seen": "2020/08/31 14:36:32",
         "time_last_active": "2021/12/29 21:51:08",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701187EB9F30DE63204C0A802A23604C0A801800C0469506164FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "18:7e:b9:f3:0d:e6",
+          "e8:b2:ac:86:72:d3",
+          "fa:31:4d:91:5d:aa",
+          "fe:c2:90:6b:fc:56",
+          "28:ff:3c:f2:4a:52"
+        ],
+        "ip": [
+          "192.168.2.162",
+          "192.168.2.26",
+          "192.168.2.28",
+          "192.168.2.34",
+          "192.168.3.48"
+        ],
         "port": [
           "eth0_5",
           "eth02020/08/31 14:36:32"
@@ -3311,23 +3555,18 @@
           "fe80::cb6:2868:6f9f:8d36",
           "fe80::1043:c970:239e:cdfc"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "02:0f:b5:07:e5:73"
-        ],
         "hostname": "amazon-a2a65bfa5",
-        "ip": [
-          "192.168.2.11"
-        ],
-        "ipv6": [],
         "name": "amazon-a2a65bfa5",
         "activity": 0,
         "os": "Android",
@@ -3335,29 +3574,34 @@
         "time_first_seen": "2020/09/09 19:01:23",
         "time_last_active": "2020/12/20 15:17:46",
         "dhcp_option": "3501033204C0A802A83604C0A80180390205DC3C0C6468637063642D352E352E360C10616D617A6F6E2D6132613635626661353709012103060F1C333A3BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:07:e5:73"
+        ],
+        "ip": [
+          "192.168.2.11"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::cef7:35ff:fe07:e573"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "00:24:e4:4c:3d:d2"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.1"
-        ],
-        "ipv6": [],
         "name": "unknown_00:24:E4:4C:3D:D2",
         "activity": 1,
         "os": "Unknown",
@@ -3365,31 +3609,34 @@
         "time_first_seen": "2020/09/16 14:00:17",
         "time_last_active": "2022/03/01 00:48:37",
         "dhcp_option": "350103390205DC3204C0A802A93604C0A80180370401031C06FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "00:24:e4:4c:3d:d2"
+        ],
+        "ip": [
+          "192.168.2.1"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "a8:66:7f:01:d0:a3",
-          "02:0f:b5:01:d0:a3"
-        ],
         "hostname": "ozone",
-        "ip": [
-          "192.168.1.18",
-          "192.168.2.224"
-        ],
-        "ipv6": [],
         "name": "ozone",
         "activity": 0,
         "os": "Mac OS",
@@ -3397,6 +3644,18 @@
         "time_first_seen": "2020/09/16 14:34:00",
         "time_last_active": "2020/11/01 09:00:06",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701A8667F01D0A33204C0A801123604C0A801800C0D416E6479732D4D6163426F6F6BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "a8:66:7f:01:d0:a3",
+          "02:0f:b5:01:d0:a3"
+        ],
+        "ip": [
+          "192.168.1.18",
+          "192.168.2.224"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -3404,23 +3663,18 @@
           "fe80::449:9a08:9056:b66f",
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "02:0f:b5:72:36:6a"
-        ],
         "hostname": "Office",
-        "ip": [
-          "192.168.2.193"
-        ],
-        "ipv6": [],
         "name": "Office",
         "activity": 0,
         "os": "iOS",
@@ -3428,29 +3682,34 @@
         "time_first_seen": "2020/09/17 14:38:06",
         "time_last_active": "2021/05/15 01:47:58",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701D4A33D72366A3204C0A802AA3604C0A801800C07486F6D65506F64FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "02:0f:b5:72:36:6a"
+        ],
+        "ip": [
+          "192.168.2.193"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::442:f7b:a206:4751"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "6e:b0:ce:b0:59:d5"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.191"
-        ],
-        "ipv6": [],
         "name": "unknown_6E:B0:CE:B0:59:D5",
         "activity": 0,
         "os": "Unknown",
@@ -3458,29 +3717,34 @@
         "time_first_seen": "2020/10/04 09:11:32",
         "time_last_active": "2020/10/04 09:11:32",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "6e:b0:ce:b0:59:d5"
+        ],
+        "ip": [
+          "192.168.2.191"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "c4:91:0c:81:38:27"
-        ],
         "hostname": "Steves-iPhone",
-        "ip": [
-          "192.168.2.194"
-        ],
-        "ipv6": [],
         "name": "Steves-iPhone",
         "activity": 0,
         "os": "iOS",
@@ -3488,29 +3752,34 @@
         "time_first_seen": "2020/10/04 13:56:08",
         "time_last_active": "2020/11/06 19:32:04",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701C4910C8138273204C0A802C23604C0A801800C0D5374657665732D6950686F6E65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "c4:91:0c:81:38:27"
+        ],
+        "ip": [
+          "192.168.2.194"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::44f:4ed4:8267:6dcf"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "30:58:90:62:43:cc"
-        ],
         "hostname": "ELAN IR3",
-        "ip": [
-          "192.168.2.195"
-        ],
-        "ipv6": [],
         "name": "ELAN IR3",
         "activity": 0,
         "os": "Unknown",
@@ -3518,29 +3787,34 @@
         "time_first_seen": "2020/10/07 10:57:26",
         "time_last_active": "2020/10/08 13:17:19",
         "dhcp_option": "350103390202243204C0A802C33604C0A801800C08454C414E2049523337040103060FFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "30:58:90:62:43:cc"
+        ],
+        "ip": [
+          "192.168.2.195"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "14:f6:d8:db:95:2f"
-        ],
         "hostname": "CS00037123",
-        "ip": [
-          "192.168.2.197"
-        ],
-        "ipv6": [],
         "name": "CS00037123",
         "activity": 0,
         "os": "Unknown",
@@ -3548,29 +3822,34 @@
         "time_first_seen": "2020/10/10 11:52:17",
         "time_last_active": "2020/10/10 13:40:43",
         "dhcp_option": "3501033D070114F6D8DB952F3204C0A802C53604C0A801800C0A43533030303337313233511A000000435330303033373132332E61642E75636C2E61632E756B3C084D53465420352E30370E0103060F1F212B2C2E2F7779F9FCFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "14:f6:d8:db:95:2f"
+        ],
+        "ip": [
+          "192.168.2.197"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "88:70:8c:73:40:f4"
-        ],
         "hostname": "android-214942173ba9595a",
-        "ip": [
-          "192.168.2.32"
-        ],
-        "ipv6": [],
         "name": "android-214942173ba9595a",
         "activity": 0,
         "os": "Android",
@@ -3578,29 +3857,34 @@
         "time_first_seen": "2020/10/12 15:44:49",
         "time_last_active": "2021/03/01 05:13:31",
         "dhcp_option": "3501033204C0A8014D390205DC3C0C6468637063642D352E352E360C18616E64726F69642D323134393432313733626139353935613709012103060F1C333A3BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "88:70:8c:73:40:f4"
+        ],
+        "ip": [
+          "192.168.2.32"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::8a70:8cff:fe73:40f4"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "2c:26:17:91:9c:0b"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.198"
-        ],
-        "ipv6": [],
         "name": "unknown_2C:26:17:91:9C:0B",
         "activity": 0,
         "os": "Unknown",
@@ -3608,31 +3892,34 @@
         "time_first_seen": "2020/10/13 20:46:58",
         "time_last_active": "2020/11/02 20:08:42",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "2c:26:17:91:9c:0b"
+        ],
+        "ip": [
+          "192.168.2.198"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::2e26:17ff:fe91:9c0b"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "d4:a3:3d:71:e1:f6"
-        ],
         "hostname": "Living-Pod-2",
-        "ip": [
-          "192.168.2.225"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:1802:2b2:f120:18b5"
-        ],
         "name": "Living-Pod-2",
         "activity": 1,
         "os": "iOS",
@@ -3640,31 +3927,37 @@
         "time_first_seen": "2020/10/30 14:08:47",
         "time_last_active": "2022/02/09 15:56:52",
         "dhcp_option": "3501033707017903060F77FC390205DC3D0701D4A33D71E1F63204C0A802E13604C0A801800C07486F6D65506F64FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "d4:a3:3d:71:e1:f6"
+        ],
+        "ip": [
+          "192.168.2.225"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:1802:2b2:f120:18b5"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::14f7:1639:cd35:6203"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "d4:a3:3d:72:36:6a"
-        ],
         "hostname": "Living-Pod-1",
-        "ip": [
-          "192.168.2.170"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:1c93:f29d:307:3d3d"
-        ],
         "name": "Living-Pod-1",
         "activity": 1,
         "os": "Unknown",
@@ -3672,29 +3965,37 @@
         "time_first_seen": "2020/10/30 14:16:10",
         "time_last_active": "2022/02/24 01:06:44",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D0701D4A33D72366A3204C0A802AA3604C0A801800C09486F6D65506F642D31FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "d4:a3:3d:72:36:6a"
+        ],
+        "ip": [
+          "192.168.2.170"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:1c93:f29d:307:3d3d"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::82f:29b7:eac:7d7b"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "ec:b5:fa:23:82:30"
-        ],
         "hostname": "ecb5fa238230",
-        "ip": [
-          "192.168.2.229"
-        ],
-        "ipv6": [],
         "name": "ecb5fa238230",
         "activity": 1,
         "os": "Unknown",
@@ -3702,29 +4003,34 @@
         "time_first_seen": "2020/11/17 16:12:49",
         "time_last_active": "1970/01/01 00:01:06",
         "dhcp_option": "3501033204C0A802E53604C0A801803902024037060103060F1C2A3C0C756468637020312E32332E320C0B5068696C6970732D687565FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "ec:b5:fa:23:82:30"
+        ],
+        "ip": [
+          "192.168.2.229"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::eeb5:faff:fe23:8230"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "80:1f:02:c4:4f:8d"
-        ],
         "hostname": "neo",
-        "ip": [
-          "192.168.2.233"
-        ],
-        "ipv6": [],
         "name": "neo",
         "activity": 0,
         "os": "Unknown",
@@ -3732,29 +4038,34 @@
         "time_first_seen": "2020/11/28 18:24:49",
         "time_last_active": "2021/05/14 11:22:04",
         "dhcp_option": "3501033D07010000000004103204C0A802E83604C0A80180390205C03C2B6468637063642D362E31312E353A4C696E75782D342E31392E34322B3A61726D76366C3A42434D323833350C066172656E6132910101370F01792103060C0F1A1C2A33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "80:1f:02:c4:4f:8d"
+        ],
+        "ip": [
+          "192.168.2.233"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::2a71:3c13:5ebf:4341"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "40:83:1d:60:30:dd"
-        ],
         "hostname": "",
-        "ip": [
-          "0.0.0.0"
-        ],
-        "ipv6": [],
         "name": "unknown_40:83:1D:60:30:DD",
         "activity": 0,
         "os": "Unknown",
@@ -3762,29 +4073,34 @@
         "time_first_seen": "2020/12/04 13:11:21",
         "time_last_active": "2020/12/04 13:11:21",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "40:83:1d:60:30:dd"
+        ],
+        "ip": [
+          "0.0.0.0"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::72:c5f4:e58:b49b"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "ac:bc:32:ef:af:27"
-        ],
         "hostname": "Mac-mini",
-        "ip": [
-          "192.168.2.13"
-        ],
-        "ipv6": [],
         "name": "Mac-mini",
         "activity": 0,
         "os": "Mac OS",
@@ -3792,31 +4108,34 @@
         "time_first_seen": "2020/12/21 14:19:09",
         "time_last_active": "2021/01/12 14:16:12",
         "dhcp_option": "3501033604C0A801803204C0A8020D37070103060F432B3C3D0701ACBC32EFAF27390205DCFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "ac:bc:32:ef:af:27"
+        ],
+        "ip": [
+          "192.168.2.13"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "00:00:00:00:04:10",
-          "80:1f:02:8f:22:f1"
-        ],
         "hostname": "grid",
-        "ip": [
-          "192.168.2.19",
-          "192.168.2.20"
-        ],
-        "ipv6": [],
         "name": "grid",
         "activity": 0,
         "os": "Unknown",
@@ -3824,6 +4143,18 @@
         "time_first_seen": "2020/12/24 12:58:08",
         "time_last_active": "2020/12/24 13:59:07",
         "dhcp_option": "3501033D07010000000004103204C0A802133604C0A80180390205C03C296468637063642D382E312E323A4C696E75782D352E342E37392B3A61726D76366C3A42434D323833350C0B7261737062657272797069910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "00:00:00:00:04:10",
+          "80:1f:02:8f:22:f1"
+        ],
+        "ip": [
+          "192.168.2.19",
+          "192.168.2.20"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -3831,23 +4162,18 @@
           "fe80::fec0:86bb:54e5:18dd",
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "d8:c0:a6:37:c7:e0"
-        ],
         "hostname": "Roomba-80B4461870436690",
-        "ip": [
-          "192.168.2.25"
-        ],
-        "ipv6": [],
         "name": "Roomba-80B4461870436690",
         "activity": 1,
         "os": "Unknown",
@@ -3855,32 +4181,34 @@
         "time_first_seen": "2021/01/06 18:14:00",
         "time_last_active": "2022/02/09 15:56:39",
         "dhcp_option": "350103390205DC3204C0A802193604C0A80180370401031C060C17526F6F6D62612D38304234343631383730343336363930FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "d8:c0:a6:37:c7:e0"
+        ],
+        "ip": [
+          "192.168.2.25"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "58:d3:49:36:93:20"
-        ],
         "hostname": "Kitchen-Pod",
-        "ip": [
-          "192.168.2.29"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:14ce:c38:e219:23a9",
-          "fdc4:a7da:b1d3:454a:0:fd50:adcb:5d95"
-        ],
         "name": "Kitchen-Pod",
         "activity": 1,
         "os": "Unknown",
@@ -3888,31 +4216,38 @@
         "time_first_seen": "2021/02/04 11:35:25",
         "time_last_active": "2022/02/27 13:54:12",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D070158D3493693203204C0A8021D3604C0A801800C07486F6D65506F64FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "58:d3:49:36:93:20"
+        ],
+        "ip": [
+          "192.168.2.29"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:14ce:c38:e219:23a9",
+          "fdc4:a7da:b1d3:454a:0:fd50:adcb:5d95"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::14fe:9fcd:9d08:bb39"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "44:73:d6:22:36:b4"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.31"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:4673:d6ff:fe22:36b4"
-        ],
         "name": "unknown_44:73:D6:22:36:B4",
         "activity": 1,
         "os": "Unknown",
@@ -3920,32 +4255,37 @@
         "time_first_seen": "2021/02/05 10:20:52",
         "time_last_active": "2022/02/09 15:57:00",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "44:73:d6:22:36:b4"
+        ],
+        "ip": [
+          "192.168.2.31"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:4673:d6ff:fe22:36b4"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::4673:d6ff:fe22:36b4"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "58:d3:49:36:6c:01"
-        ],
         "hostname": "Bedroom-Pod",
-        "ip": [
-          "192.168.2.33"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:ce6:fb81:5f49:a52e",
-          "fdc4:a7da:b1d3:454a:0:fdfe:6d70:fbac"
-        ],
         "name": "Bedroom-Pod",
         "activity": 1,
         "os": "Unknown",
@@ -3953,31 +4293,38 @@
         "time_first_seen": "2021/02/17 01:10:37",
         "time_last_active": "2022/02/28 00:45:21",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D070158D349366C013204C0A802213604C0A801800C07486F6D65506F64FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "58:d3:49:36:6c:01"
+        ],
+        "ip": [
+          "192.168.2.33"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:ce6:fb81:5f49:a52e",
+          "fdc4:a7da:b1d3:454a:0:fdfe:6d70:fbac"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::c3c:ba72:f377:a0d5"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "9c:c9:eb:23:11:9b",
-          "9c:c9:eb:23:11:9a"
-        ],
         "hostname": "RBR50",
-        "ip": [
-          "192.168.2.38",
-          "192.168.15.2"
-        ],
-        "ipv6": [],
         "name": "RBR50",
         "activity": 1,
         "os": "Unknown",
@@ -3985,6 +4332,18 @@
         "time_first_seen": "2021/03/15 12:41:57",
         "time_last_active": "2022/02/24 17:52:15",
         "dhcp_option": "3501033D07019CC9EB23119B0C0552425235303C0B756468637020302E392E383204C0A802263604C0A80180370A0179F903060C0F1C212BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "9c:c9:eb:23:11:9b",
+          "9c:c9:eb:23:11:9a"
+        ],
+        "ip": [
+          "192.168.2.38",
+          "192.168.15.2"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -3996,24 +4355,15 @@
           0,
           1
         ],
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "9c:c9:eb:25:4d:c1",
-          "9c:c9:eb:25:50:c8"
-        ],
         "hostname": "RBS50",
-        "ip": [
-          "192.168.15.3",
-          "192.168.15.4"
-        ],
-        "ipv6": [],
         "name": "RBS50",
         "activity": 1,
         "os": "Unknown",
@@ -4021,6 +4371,18 @@
         "time_first_seen": "2021/03/15 13:15:57",
         "time_last_active": "2022/02/27 20:14:11",
         "dhcp_option": "3501033D07019CC9EB254DC10C0552425335303C0B756468637020302E392E383204C0A802293604C0A80180370A0179F903060C0F1C212BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "9c:c9:eb:25:4d:c1",
+          "9c:c9:eb:25:50:c8"
+        ],
+        "ip": [
+          "192.168.15.3",
+          "192.168.15.4"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -4028,23 +4390,18 @@
           "fe80::9ec9:ebff:fe25:4dc1",
           "fe80::9ec9:ebff:fe25:50c8"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:5d:5d:b7"
-        ],
         "hostname": "office",
-        "ip": [
-          "192.168.2.241"
-        ],
-        "ipv6": [],
         "name": "office",
         "activity": 0,
         "os": "Unknown",
@@ -4052,31 +4409,34 @@
         "time_first_seen": "2021/03/15 15:21:13",
         "time_last_active": "2021/05/14 14:05:07",
         "dhcp_option": "3501033D0701DCA6325D5DB73204C0A802F13604C0A80180390205C03C2D6468637063642D382E312E323A4C696E75782D352E342E38332D76376C2B3A61726D76376C3A42434D323731310C066F6666696365910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:5d:5d:b7"
+        ],
+        "ip": [
+          "192.168.2.241"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::75:2d47:2cb6:4c08"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "2e:07:8b:2a:c4:86",
-          "f2:4c:82:6d:10:6a"
-        ],
         "hostname": "Andys-iPhone-X",
-        "ip": [
-          "192.168.2.21",
-          "192.168.2.27"
-        ],
-        "ipv6": [],
         "name": "Andys-iPhone-X",
         "activity": 0,
         "os": "Unknown",
@@ -4084,6 +4444,18 @@
         "time_first_seen": "2021/03/22 18:10:19",
         "time_last_active": "2021/10/26 18:23:32",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D070152F81AD5BA043204C0A8022733040076A7000C0E416E6479732D6950686F6E652D58FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "2e:07:8b:2a:c4:86",
+          "f2:4c:82:6d:10:6a"
+        ],
+        "ip": [
+          "192.168.2.21",
+          "192.168.2.27"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -4091,25 +4463,18 @@
           "fe80::1c1b:7290:2978:3f71",
           "fe80::106f:41c5:1ca4:487a"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "58:d3:49:36:50:c4"
-        ],
         "hostname": "Repair-Pod-2",
-        "ip": [
-          "192.168.2.243"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:0:fd5f:dd2a:58b5"
-        ],
         "name": "Repair-Pod-2",
         "activity": 1,
         "os": "Unknown",
@@ -4117,32 +4482,37 @@
         "time_first_seen": "2021/03/27 11:47:40",
         "time_last_active": "2022/02/26 08:00:13",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D070158D3493650C43204C0A802F33604C0A801800C07486F6D65506F64FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "58:d3:49:36:50:c4"
+        ],
+        "ip": [
+          "192.168.2.243"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:0:fd5f:dd2a:58b5"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::18d9:bbc9:2103:31db"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "58:d3:49:4b:3a:79"
-        ],
         "hostname": "Repair-Pod-1",
-        "ip": [
-          "192.168.2.244"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:81e:8585:ea03:2730",
-          "fdc4:a7da:b1d3:454a:0:fd3e:f989:c782"
-        ],
         "name": "Repair-Pod-1",
         "activity": 1,
         "os": "Unknown",
@@ -4150,29 +4520,38 @@
         "time_first_seen": "2021/03/31 17:29:50",
         "time_last_active": "2022/02/28 00:12:51",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D070158D3494B3A793204C0A802F43604C0A801800C07486F6D65506F64FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "58:d3:49:4b:3a:79"
+        ],
+        "ip": [
+          "192.168.2.244"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:81e:8585:ea03:2730",
+          "fdc4:a7da:b1d3:454a:0:fd3e:f989:c782"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::18fc:276a:82b3:b897"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "7c:d1:c3:16:6b:1f"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.245"
-        ],
-        "ipv6": [],
         "name": "unknown_7C:D1:C3:16:6B:1F",
         "activity": 0,
         "os": "iOS",
@@ -4180,29 +4559,34 @@
         "time_first_seen": "2021/05/01 14:18:35",
         "time_last_active": "2021/05/03 16:56:27",
         "dhcp_option": "35010337060103060F77FC390205DC3D07017CD1C3166B1F3204C0A802F53604C0A801800C084170706C652D5456FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "7c:d1:c3:16:6b:1f"
+        ],
+        "ip": [
+          "192.168.2.245"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::469:cc66:ac97:1237"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "8c:85:90:d4:5b:f1"
-        ],
         "hostname": "vesper",
-        "ip": [
-          "192.168.2.246"
-        ],
-        "ipv6": [],
         "name": "vesper",
         "activity": 0,
         "os": "Mac OS",
@@ -4210,31 +4594,34 @@
         "time_first_seen": "2021/05/04 15:39:16",
         "time_last_active": "2021/06/03 08:05:21",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D07018C8590D45BF13204C0A802F63604C0A801800C0B4D6163426F6F6B2D50726FFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "8c:85:90:d4:5b:f1"
+        ],
+        "ip": [
+          "192.168.2.246"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::432:af46:b604:60b6"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:5d:5d:b9"
-        ],
         "hostname": "office-play",
-        "ip": [
-          "192.168.2.16"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:4fb7:d559:8ac5:d2e7"
-        ],
         "name": "office-play",
         "activity": 1,
         "os": "Unknown",
@@ -4242,31 +4629,37 @@
         "time_first_seen": "2021/05/14 14:05:11",
         "time_last_active": "2022/03/01 12:16:03",
         "dhcp_option": "3501033D0701DCA6325D5DB93204C0A802103604C0A80180390205C03C2E6468637063642D382E312E323A4C696E75782D352E31302E32302D76376C2B3A61726D76376C3A42434D323731310C0B6F66666963652D706C6179910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:5d:5d:b9"
+        ],
+        "ip": [
+          "192.168.2.16"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:4fb7:d559:8ac5:d2e7"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::acb2:9ca3:813a:9b22"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "58:d3:49:41:bb:3a"
-        ],
         "hostname": "Office-Pod",
-        "ip": [
-          "192.168.2.248"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:0:fdf8:8139:da3b"
-        ],
         "name": "Office-Pod",
         "activity": 1,
         "os": "Unknown",
@@ -4274,31 +4667,37 @@
         "time_first_seen": "2021/05/15 02:01:10",
         "time_last_active": "2022/02/09 15:56:43",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D070158D34941BB3A3204C0A802F83604C0A801800C0A4F66666963652D506F64FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "58:d3:49:41:bb:3a"
+        ],
+        "ip": [
+          "192.168.2.248"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:0:fdf8:8139:da3b"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::896:d245:9c8e:2313"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "44:73:d6:22:3c:d9"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.249"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:4673:d6ff:fe22:3cd9"
-        ],
         "name": "unknown_44:73:D6:22:3C:D9",
         "activity": 1,
         "os": "Unknown",
@@ -4306,29 +4705,37 @@
         "time_first_seen": "2021/05/20 12:30:29",
         "time_last_active": "2022/03/01 16:03:49",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "44:73:d6:22:3c:d9"
+        ],
+        "ip": [
+          "192.168.2.249"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:4673:d6ff:fe22:3cd9"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::4673:d6ff:fe22:3cd9"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "08:00:27:45:22:fd"
-        ],
         "hostname": "plexus",
-        "ip": [
-          "192.168.2.252"
-        ],
-        "ipv6": [],
         "name": "plexus",
         "activity": 0,
         "os": "Unknown",
@@ -4336,29 +4743,34 @@
         "time_first_seen": "2021/05/20 13:56:40",
         "time_last_active": "2021/05/21 12:08:36",
         "dhcp_option": "3501033D07010800274522FD37110102060C0F1A1C79032128292A77F9FC113902024032040A00020F0C06706C65787573FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "08:00:27:45:22:fd"
+        ],
+        "ip": [
+          "192.168.2.252"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "08:00:27:ca:47:25"
-        ],
         "hostname": "DESKTOP-7H97N2F",
-        "ip": [
-          "192.168.3.19"
-        ],
-        "ipv6": [],
         "name": "DESKTOP-7H97N2F",
         "activity": 0,
         "os": "Unknown",
@@ -4366,29 +4778,34 @@
         "time_first_seen": "2021/05/20 17:54:15",
         "time_last_active": "2021/05/20 18:00:15",
         "dhcp_option": "3501033D0701080027CA47253204C0A802FD3604C0A801800C0F57494E2D464E4C4F51434536395031511200000057494E2D464E4C4F514345363950313C084D53465420352E30370E0103060F1F212B2C2E2F7779F9FCFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "08:00:27:ca:47:25"
+        ],
+        "ip": [
+          "192.168.3.19"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "44:73:d6:22:4b:0b"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.21"
-        ],
-        "ipv6": [],
         "name": "unknown_44:73:D6:22:4B:0B",
         "activity": 0,
         "os": "Unknown",
@@ -4396,29 +4813,34 @@
         "time_first_seen": "2021/05/25 14:13:14",
         "time_last_active": "2021/10/30 18:40:37",
         "dhcp_option": "3501033204C0A803153604C0A8018039020240370801031AFC2A0F060C3D07014473D6224B0BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "44:73:d6:22:4b:0b"
+        ],
+        "ip": [
+          "192.168.3.21"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::4673:d6ff:fe22:4b0b"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "a4:5e:60:da:1f:bb"
-        ],
         "hostname": "Nigels-MBP",
-        "ip": [
-          "192.168.3.27"
-        ],
-        "ipv6": [],
         "name": "Nigels-MBP",
         "activity": 0,
         "os": "Mac OS",
@@ -4426,31 +4848,34 @@
         "time_first_seen": "2021/05/30 12:16:06",
         "time_last_active": "2021/05/30 12:16:13",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701A45E60DA1FBB3204C0A8031B3604C0A801800C0A4E6967656C732D4D4250FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "a4:5e:60:da:1f:bb"
+        ],
+        "ip": [
+          "192.168.3.27"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "::"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "7e:86:9f:c2:0d:25"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.30"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:40c:d88e:b830:fe26"
-        ],
         "name": "unknown_7E:86:9F:C2:0D:25",
         "activity": 1,
         "os": "Unknown",
@@ -4458,29 +4883,37 @@
         "time_first_seen": "1970/01/01 00:01:04",
         "time_last_active": "2022/03/01 15:58:15",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "7e:86:9f:c2:0d:25"
+        ],
+        "ip": [
+          "192.168.3.30"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:40c:d88e:b830:fe26"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::141c:5c3d:f014:f969"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "a0:ce:c8:15:a6:8a"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.31"
-        ],
-        "ipv6": [],
         "name": "unknown_A0:CE:C8:15:A6:8A",
         "activity": 0,
         "os": "Unknown",
@@ -4488,31 +4921,34 @@
         "time_first_seen": "1970/01/01 00:01:09",
         "time_last_active": "2021/07/11 13:51:19",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "a0:ce:c8:15:a6:8a"
+        ],
+        "ip": [
+          "192.168.3.31"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::65:a7bb:123b:6ca1"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "3c:22:fb:00:dc:d7"
-        ],
         "hostname": "torsen",
-        "ip": [
-          "192.168.3.32"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:ab:cdcc:5501:941f"
-        ],
         "name": "torsen",
         "activity": 1,
         "os": "Unknown",
@@ -4520,29 +4956,37 @@
         "time_first_seen": "2021/07/08 22:15:38",
         "time_last_active": "2022/03/01 12:28:57",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "3c:22:fb:00:dc:d7"
+        ],
+        "ip": [
+          "192.168.3.32"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:ab:cdcc:5501:941f"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::8bc:a6ba:ac4c:53f1"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "78:4f:43:a0:92:5e"
-        ],
         "hostname": "Andys-MBP",
-        "ip": [
-          "192.168.3.33"
-        ],
-        "ipv6": [],
         "name": "Andys-MBP",
         "activity": 0,
         "os": "Mac OS",
@@ -4550,29 +4994,34 @@
         "time_first_seen": "2021/08/02 15:04:23",
         "time_last_active": "2021/08/06 10:54:10",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701784F43A0925E3204C0A803213604C0A801800C0B4D6163426F6F6B2D50726FFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "78:4f:43:a0:92:5e"
+        ],
+        "ip": [
+          "192.168.3.33"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::e0:b698:e3c5:b56e"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "88:1f:a1:1b:fb:4a"
-        ],
         "hostname": "SelinaBlowMBP2",
-        "ip": [
-          "192.168.3.34"
-        ],
-        "ipv6": [],
         "name": "SelinaBlowMBP2",
         "activity": 0,
         "os": "Mac OS",
@@ -4580,29 +5029,34 @@
         "time_first_seen": "2021/08/26 17:21:37",
         "time_last_active": "2021/10/28 12:21:19",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D0701881FA11BFB4A3204C0A803223604C0A801800C0E53656C696E61426C6F774D425032FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "88:1f:a1:1b:fb:4a"
+        ],
+        "ip": [
+          "192.168.3.34"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::ba:c7a2:729d:7006"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "ec:9b:f3:12:f0:b9"
-        ],
         "hostname": "Galaxy-S6-edge",
-        "ip": [
-          "192.168.3.35"
-        ],
-        "ipv6": [],
         "name": "Galaxy-S6-edge",
         "activity": 0,
         "os": "Unknown",
@@ -4610,29 +5064,34 @@
         "time_first_seen": "2021/09/05 17:21:04",
         "time_last_active": "2022/02/08 18:00:36",
         "dhcp_option": "3501033D0701EC9BF312F0B93204C0A803233604C0A80180390205DC3C10616E64726F69642D646863702D372E300C0E47616C6178792D53362D65646765370A0103060F1A1C333A3B2BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "ec:9b:f3:12:f0:b9"
+        ],
+        "ip": [
+          "192.168.3.35"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::ee9b:f3ff:fe12:f0b9"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "84:38:35:45:72:44"
-        ],
         "hostname": "MacBook-Air",
-        "ip": [
-          "192.168.3.36"
-        ],
-        "ipv6": [],
         "name": "MacBook-Air",
         "activity": 0,
         "os": "Mac OS",
@@ -4640,29 +5099,34 @@
         "time_first_seen": "2021/09/09 18:51:20",
         "time_last_active": "2022/02/01 20:16:38",
         "dhcp_option": "350103370A017903060F77FC5F2C2E390205DC3D07018438354572443204C0A803243604C0A801800C0B4D6163426F6F6B2D416972FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "84:38:35:45:72:44"
+        ],
+        "ip": [
+          "192.168.3.36"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::41d:b661:e756:6e5f"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "22:02:ac:a1:be:26"
-        ],
         "hostname": "Selinas-iPhone",
-        "ip": [
-          "192.168.3.38"
-        ],
-        "ipv6": [],
         "name": "Selinas-iPhone",
         "activity": 0,
         "os": "Unknown",
@@ -4670,29 +5134,34 @@
         "time_first_seen": "2021/09/21 15:55:37",
         "time_last_active": "2021/10/28 17:47:44",
         "dhcp_option": "3501033708017903060F7277FC390205DC3D07012202ACA1BE263204C0A803263604C0A801800C0E53656C696E61732D6950686F6E65FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "22:02:ac:a1:be:26"
+        ],
+        "ip": [
+          "192.168.3.38"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::f:5868:fd0:807d"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "92:85:bc:d5:d5:4c"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.237"
-        ],
-        "ipv6": [],
         "name": "unknown_92:85:BC:D5:D5:4C",
         "activity": 0,
         "os": "Unknown",
@@ -4700,29 +5169,34 @@
         "time_first_seen": "2021/09/24 13:41:47",
         "time_last_active": "2021/11/30 17:20:24",
         "dhcp_option": "3501033709017903060F6C7277FC390205DC3D07019285BCD5D54C3204C0A802ED3604C0A80180FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "92:85:bc:d5:d5:4c"
+        ],
+        "ip": [
+          "192.168.2.237"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::463:895d:3087:b096"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "f4:65:a6:7a:37:17"
-        ],
         "hostname": "iPhone-13-Pro",
-        "ip": [
-          "192.168.3.41"
-        ],
-        "ipv6": [],
         "name": "iPhone-13-Pro",
         "activity": 0,
         "os": "Unknown",
@@ -4730,29 +5204,34 @@
         "time_first_seen": "2021/10/19 14:19:53",
         "time_last_active": "2021/10/19 14:20:02",
         "dhcp_option": "3501033709017903060F6C7277FC390205DC3D0701F465A67A37173204C0A803293604C0A801800C0D6950686F6E652D31332D50726FFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "f4:65:a6:7a:37:17"
+        ],
+        "ip": [
+          "192.168.3.41"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::caf:1e02:f2ea:699f"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "aa:dc:19:52:f7:c8"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.42"
-        ],
-        "ipv6": [],
         "name": "unknown_AA:DC:19:52:F7:C8",
         "activity": 0,
         "os": "Unknown",
@@ -4760,31 +5239,34 @@
         "time_first_seen": "2021/10/19 14:27:16",
         "time_last_active": "2021/10/19 14:35:59",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "aa:dc:19:52:f7:c8"
+        ],
+        "ip": [
+          "192.168.3.42"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::1006:bb09:3a67:d3b2"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "8a:ef:9f:3c:4d:38"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.43"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:84e:ae8e:e7df:ce06"
-        ],
         "name": "unknown_8A:EF:9F:3C:4D:38",
         "activity": 1,
         "os": "Unknown",
@@ -4792,29 +5274,37 @@
         "time_first_seen": "2021/10/19 14:36:01",
         "time_last_active": "2022/03/01 14:25:44",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "8a:ef:9f:3c:4d:38"
+        ],
+        "ip": [
+          "192.168.3.43"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:84e:ae8e:e7df:ce06"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::8fb:fc24:d0bc:3439"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "44:6d:6c:86:06:a9"
-        ],
         "hostname": "android-76dc342113d1615a",
-        "ip": [
-          "192.168.3.44"
-        ],
-        "ipv6": [],
         "name": "android-76dc342113d1615a",
         "activity": 0,
         "os": "Android",
@@ -4822,31 +5312,34 @@
         "time_first_seen": "2021/10/21 18:09:19",
         "time_last_active": "2021/10/21 18:09:26",
         "dhcp_option": "3501033D0701446D6C8606A93204C0A8032C3604C0A80180390205DC3C0C6468637063642D352E352E360C18616E64726F69642D373664633334323131336431363135613709012103060F1C333A3BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "44:6d:6c:86:06:a9"
+        ],
+        "ip": [
+          "192.168.3.44"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::466d:6cff:fe86:6a9"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "a0:78:17:ec:5c:30",
-          "a0:78:17:f0:e5:26"
-        ],
         "hostname": "tangy",
-        "ip": [
-          "192.168.3.22",
-          "192.168.3.23"
-        ],
-        "ipv6": [],
         "name": "tangy",
         "activity": 1,
         "os": "Unknown",
@@ -4854,6 +5347,18 @@
         "time_first_seen": "2021/10/26 18:18:23",
         "time_last_active": "1970/01/01 00:01:27",
         "dhcp_option": "350103370C017903060F6C7277FC5F2C2E390205DC3D0701A07817EC5C303204C0A803163604C0A801800C0574616E6779FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "a0:78:17:ec:5c:30",
+          "a0:78:17:f0:e5:26"
+        ],
+        "ip": [
+          "192.168.3.22",
+          "192.168.3.23"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -4865,24 +5370,15 @@
           1,
           0
         ],
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "52:f8:1a:d5:ba:04"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.2.39"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:c30:a2da:3d72:1e2"
-        ],
         "name": "unknown_52:F8:1A:D5:BA:04",
         "activity": 1,
         "os": "Unknown",
@@ -4890,29 +5386,37 @@
         "time_first_seen": "2021/10/26 18:23:40",
         "time_last_active": "1970/01/01 00:01:45",
         "dhcp_option": "3501033709017903060F6C7277FC390205DC3D070152F81AD5BA043204C0A802273604C0A80180FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "52:f8:1a:d5:ba:04"
+        ],
+        "ip": [
+          "192.168.2.39"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:c30:a2da:3d72:1e2"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::10b8:610c:eb3f:5b69"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "4a:66:0f:0d:46:5f"
-        ],
         "hostname": "Tobys-Galaxy-S10",
-        "ip": [
-          "192.168.3.45"
-        ],
-        "ipv6": [],
         "name": "Tobys-Galaxy-S10",
         "activity": 0,
         "os": "Unknown",
@@ -4920,29 +5424,34 @@
         "time_first_seen": "2021/11/06 17:34:06",
         "time_last_active": "2021/11/28 12:27:48",
         "dhcp_option": "3501033D07014A660F0D465F3204C0A8032D3604C0A80180390205DC3C0F616E64726F69642D646863702D31300C10546F6279732D47616C6178792D533130370A0103060F1A1C333A3B2BFF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "4a:66:0f:0d:46:5f"
+        ],
+        "ip": [
+          "192.168.3.45"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::4866:fff:fe0d:465f"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "dc:a6:32:03:1b:f3"
-        ],
         "hostname": "raspberrypi",
-        "ip": [
-          "192.168.2.15"
-        ],
-        "ipv6": [],
         "name": "raspberrypi",
         "activity": 0,
         "os": "Unknown",
@@ -4950,29 +5459,34 @@
         "time_first_seen": "2021/11/13 12:11:56",
         "time_last_active": "2021/12/16 14:27:00",
         "dhcp_option": "3501033D0701DCA632031BF33204C0A8021E390205C03C2E6468637063642D382E312E323A4C696E75782D352E31302E36332D76376C2B3A61726D76376C3A42434D323731310C0B7261737062657272797069910101370E01792103060C0F1A1C33363A3B77FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "dc:a6:32:03:1b:f3"
+        ],
+        "ip": [
+          "192.168.2.15"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::6fbc:a2c0:1c85:40ec"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "6a:a1:db:74:35:f5"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.47"
-        ],
-        "ipv6": [],
         "name": "unknown_6A:A1:DB:74:35:F5",
         "activity": 0,
         "os": "Unknown",
@@ -4980,31 +5494,34 @@
         "time_first_seen": "2021/12/09 15:43:18",
         "time_last_active": "2021/12/09 16:09:54",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "6a:a1:db:74:35:f5"
+        ],
+        "ip": [
+          "192.168.3.47"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::c41:aa43:4afe:391f"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "be:89:bd:ba:1e:f0"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.37"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:146b:d13b:62a3:210d"
-        ],
         "name": "unknown_BE:89:BD:BA:1E:F0",
         "activity": 1,
         "os": "Unknown",
@@ -5012,31 +5529,37 @@
         "time_first_seen": "2021/12/12 13:30:42",
         "time_last_active": "2022/02/19 21:52:59",
         "dhcp_option": "3501033709017903060F6C7277FC390205DC3D0701BE89BDBA1EF03204C0A803253604C0A80180FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "be:89:bd:ba:1e:f0"
+        ],
+        "ip": [
+          "192.168.3.37"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:146b:d13b:62a3:210d"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::1c40:7f30:a237:6e4d"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "a0:78:17:f3:1f:5d",
-          "a0:78:17:f3:55:fe"
-        ],
         "hostname": "verde",
-        "ip": [
-          "192.168.3.24",
-          "192.168.3.25"
-        ],
-        "ipv6": [],
         "name": "verde",
         "activity": 1,
         "os": "Unknown",
@@ -5044,6 +5567,18 @@
         "time_first_seen": "2021/12/16 14:29:08",
         "time_last_active": "1970/01/01 00:01:28",
         "dhcp_option": "350103370C017903060F6C7277FC5F2C2E390205DC3D0701A07817F31F5D3204C0A803183604C0A801800C057665726465FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "a0:78:17:f3:1f:5d",
+          "a0:78:17:f3:55:fe"
+        ],
+        "ip": [
+          "192.168.3.24",
+          "192.168.3.25"
+        ],
         "port": [
           "eth0_5"
         ],
@@ -5051,25 +5586,18 @@
           "fe80::c4c:eb9f:d009:fed8",
           "fe80::ce9:fbf5:46e5:2619"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "96:58:47:31:f4:d5"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.49"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:44a:8cd:3586:9d49"
-        ],
         "name": "unknown_96:58:47:31:F4:D5",
         "activity": 1,
         "os": "Unknown",
@@ -5077,31 +5605,37 @@
         "time_first_seen": "2021/12/29 21:55:50",
         "time_last_active": "2022/02/28 23:16:17",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "96:58:47:31:f4:d5"
+        ],
+        "ip": [
+          "192.168.3.49"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:44a:8cd:3586:9d49"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::1885:53fd:7e7e:9634"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "52:bf:97:b1:38:31"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.50"
-        ],
-        "ipv6": [
-          "fdc4:a7da:b1d3:454a:d8:b20c:43c3:4942"
-        ],
         "name": "unknown_52:BF:97:B1:38:31",
         "activity": 1,
         "os": "Unknown",
@@ -5109,29 +5643,37 @@
         "time_first_seen": "2022/01/04 17:25:48",
         "time_last_active": "2022/02/26 17:05:02",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "52:bf:97:b1:38:31"
+        ],
+        "ip": [
+          "192.168.3.50"
+        ],
+        "ipv6": [
+          "fdc4:a7da:b1d3:454a:d8:b20c:43c3:4942"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::1417:bcc3:5530:dbd7"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 1,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          1
+        ]
       },
       {
-        "mac": [
-          "b8:09:8a:bd:26:bd"
-        ],
         "hostname": "nicks-iMac",
-        "ip": [
-          "192.168.1.17"
-        ],
-        "ipv6": [],
         "name": "nicks-iMac",
         "activity": 0,
         "os": "Unknown",
@@ -5139,29 +5681,34 @@
         "time_first_seen": "2022/01/07 16:06:26",
         "time_last_active": "2022/01/11 09:52:15",
         "dhcp_option": "350103370B017903060F7277FC5F2C2E390205DC3D0701B8098ABD26BD3204C0A801113604C0A801800C04694D6163FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "b8:09:8a:bd:26:bd"
+        ],
+        "ip": [
+          "192.168.1.17"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::14db:5376:4469:a321"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "5e:17:47:65:ac:d0"
-        ],
         "hostname": "",
-        "ip": [
-          "192.168.3.51"
-        ],
-        "ipv6": [],
         "name": "unknown_5E:17:47:65:AC:D0",
         "activity": 0,
         "os": "Unknown",
@@ -5169,31 +5716,34 @@
         "time_first_seen": "2022/01/15 12:45:45",
         "time_last_active": "2022/01/15 13:33:19",
         "dhcp_option": "NA",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "5e:17:47:65:ac:d0"
+        ],
+        "ip": [
+          "192.168.3.51"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::101c:bd0b:38d7:3e6f"
         ],
-        "activity_ip": 0,
-        "activity_ipv6_ll": 0,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          0
+        ],
+        "activity_ipv6_ll": [
+          0
+        ],
+        "activity_ipv6": [
+          0
+        ]
       },
       {
-        "mac": [
-          "c4:5b:be:8f:8c:2c",
-          "c4:5b:be:8e:8c:94"
-        ],
         "hostname": "espressif",
-        "ip": [
-          "192.168.3.53",
-          "192.168.3.54"
-        ],
-        "ipv6": [],
         "name": "espressif",
         "activity": 1,
         "os": "Unknown",
@@ -5201,19 +5751,33 @@
         "time_first_seen": "2022/02/12 10:08:57",
         "time_last_active": "2022/03/01 06:15:06",
         "dhcp_option": "350103390205DC3204C0A803353604C0A80180370401031C060C09657370726573736966FF",
+        "device_oui": "NA",
+        "device_serial": "NA",
+        "device_class": "NA",
+        "reconnected": 0,
+        "mac": [
+          "c4:5b:be:8f:8c:2c",
+          "c4:5b:be:8e:8c:94"
+        ],
+        "ip": [
+          "192.168.3.53",
+          "192.168.3.54"
+        ],
         "port": [
           "eth0_5"
         ],
         "ipv6_ll": [
           "fe80::18d9:bbc9:2103:31db"
         ],
-        "activity_ip": 1,
-        "activity_ipv6_ll": 1,
-        "activity_ipv6": 0,
-        "device_oui": "NA",
-        "device_serial": "NA",
-        "device_class": "NA",
-        "reconnected": 0
+        "activity_ip": [
+          1
+        ],
+        "activity_ipv6_ll": [
+          1
+        ],
+        "activity_ipv6": [
+          0
+        ]
       }
     ],
     "rate": [
@@ -5228,22 +5792,22 @@
         "timestamp": 0,
         "app": 0,
         "mac": "3c:22:fb:00:dc:d7",
-        "tx": 2222389016,
-        "rx": 10152708089
+        "tx": 2223096250,
+        "rx": 10152985813
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "44:73:d6:22:36:b4",
-        "tx": 1401949,
-        "rx": 844463
+        "tx": 1402261,
+        "rx": 844615
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "44:73:d6:22:3c:d9",
-        "tx": 4244334,
-        "rx": 1623214
+        "tx": 4245282,
+        "rx": 1623366
       },
       {
         "timestamp": 0,
@@ -5263,50 +5827,50 @@
         "timestamp": 0,
         "app": 0,
         "mac": "58:d3:49:36:50:c4",
-        "tx": 116332484,
-        "rx": 287971364
+        "tx": 116369916,
+        "rx": 288066121
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "58:d3:49:36:6c:01",
-        "tx": 136520890,
-        "rx": 302091424
+        "tx": 136542972,
+        "rx": 302111204
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "58:d3:49:36:93:20",
-        "tx": 764237726,
-        "rx": 1190069489
+        "tx": 764280500,
+        "rx": 1190167137
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "58:d3:49:41:bb:3a",
-        "tx": 231926347,
-        "rx": 299710870
+        "tx": 231951055,
+        "rx": 299716091
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "58:d3:49:4b:3a:79",
-        "tx": 217339385,
-        "rx": 327233584
+        "tx": 217423688,
+        "rx": 327267587
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "6c:2b:59:89:b5:c9",
-        "tx": 670073,
+        "tx": 670233,
         "rx": 0
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "6c:2b:59:89:b5:cf",
-        "tx": 54307071124,
-        "rx": 1455540537187
+        "tx": 54310518988,
+        "rx": 1455565998999
       },
       {
         "timestamp": 0,
@@ -5319,22 +5883,22 @@
         "timestamp": 0,
         "app": 0,
         "mac": "74:d4:35:c3:c6:45",
-        "tx": 359246495,
-        "rx": 1234358453
+        "tx": 359371157,
+        "rx": 1234716190
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "7e:86:9f:c2:0d:25",
-        "tx": 3396755557,
-        "rx": 12836353735
+        "tx": 3397098922,
+        "rx": 12836852015
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "8a:ef:9f:3c:4d:38",
-        "tx": 22072202264,
-        "rx": 29780128160
+        "tx": 22072470485,
+        "rx": 29783261615
       },
       {
         "timestamp": 0,
@@ -5347,36 +5911,36 @@
         "timestamp": 0,
         "app": 0,
         "mac": "96:58:47:31:f4:d5",
-        "tx": 3279000938,
-        "rx": 71039539188
+        "tx": 3279056649,
+        "rx": 71039879233
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "9c:c9:eb:23:11:9a",
         "tx": 213441111,
-        "rx": 16399410
+        "rx": 16403788
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "9c:c9:eb:25:4d:c1",
-        "tx": 591635129,
-        "rx": 593197568
+        "tx": 591793329,
+        "rx": 593356772
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "9c:c9:eb:25:50:c8",
-        "tx": 592071827,
-        "rx": 594707045
+        "tx": 592201391,
+        "rx": 594837613
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "a0:78:17:ec:5c:30",
-        "tx": 7907058009,
-        "rx": 17235603140
+        "tx": 7909310636,
+        "rx": 17244633550
       },
       {
         "timestamp": 0,
@@ -5389,8 +5953,8 @@
         "timestamp": 0,
         "app": 0,
         "mac": "a0:78:17:f3:1f:5d",
-        "tx": 13558420484,
-        "rx": 60137134197
+        "tx": 13568213538,
+        "rx": 60176601371
       },
       {
         "timestamp": 0,
@@ -5410,8 +5974,8 @@
         "timestamp": 0,
         "app": 0,
         "mac": "b8:27:eb:72:3c:e9",
-        "tx": 244751363,
-        "rx": 19721839
+        "tx": 244837568,
+        "rx": 19727992
       },
       {
         "timestamp": 0,
@@ -5424,15 +5988,15 @@
         "timestamp": 0,
         "app": 0,
         "mac": "c4:5b:be:8e:8c:94",
-        "tx": 137719824,
-        "rx": 766082566
+        "tx": 137774700,
+        "rx": 766388036
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "c4:5b:be:8f:8c:2c",
-        "tx": 123913546,
-        "rx": 689560004
+        "tx": 123966892,
+        "rx": 689861981
       },
       {
         "timestamp": 0,
@@ -5445,28 +6009,28 @@
         "timestamp": 0,
         "app": 0,
         "mac": "d4:a3:3d:71:e1:f6",
-        "tx": 192853893,
-        "rx": 1593601555
+        "tx": 192882921,
+        "rx": 1593615729
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "d4:a3:3d:72:36:6a",
-        "tx": 267786893,
-        "rx": 310774641
+        "tx": 267809180,
+        "rx": 310800349
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "d8:c0:a6:37:c7:e0",
-        "tx": 4013964,
-        "rx": 3733199
+        "tx": 4015539,
+        "rx": 3734828
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "dc:a6:32:5d:5d:b9",
-        "tx": 21474838,
+        "tx": 21485674,
         "rx": 207418
       },
       {
@@ -5480,29 +6044,29 @@
         "timestamp": 0,
         "app": 0,
         "mac": "dc:a6:32:b8:60:10",
-        "tx": 531962,
+        "tx": 532122,
         "rx": 0
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "ec:b5:fa:23:82:30",
-        "tx": 357767841,
-        "rx": 91941175
+        "tx": 358023525,
+        "rx": 91990836
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "f2:17:85:83:e2:b7",
-        "tx": 1165857315,
-        "rx": 17231301812
+        "tx": 1166225842,
+        "rx": 17234624768
       },
       {
         "timestamp": 0,
         "app": 0,
         "mac": "fc:aa:14:6a:7e:4d",
-        "tx": 44786257909,
-        "rx": 7641623672
+        "tx": 44786507894,
+        "rx": 7642989190
       }
     ],
     "usb_device_list": [
@@ -5722,23 +6286,6 @@
         0,
         "eth0_5"
       ]
-    ],
-    "ARP_STATUS_LIST_IP": 0,
-    "ARP_STATUS_LIST_MAC": 1,
-    "dhcp_log": [],
-    "sysuptime": 1734465,
-    "serial_no": "+EEH001+1934004797",
-    "wireless_device_option_list": [],
-    "MAX_NAT_RULES": 160,
-    "MAX_ACS_RULES": 16,
-    "DHCP_STATUS_LIST_IP": 0,
-    "DHCP_STATUS_LIST_MAC": 1,
-    "DHCP_STATUS_LIST_DEVICE": 2,
-    "DHCP_STATUS_LIST_INTERFACE": 3,
-    "DHCP_STATUS_LIST_LEASETIME": 4,
-    "DHCP_STATUS_LIST_CREATETIME": 5,
-    "sys_up_time": 1734465,
-    "sys_current_time": "Tue, 01 Mar 2022 17:38:23 +0000;1646156303",
-    "dhcpv6_log": []
+    ]
   }
 }

@@ -18,7 +18,7 @@ const splitList = v =>
     .value();
 
 const lift = lifter.pipe(
-  lifter({ src: "$..*", via: decode }),
+  lifter({ src: "$..*", via: decode, leaf: true }),
   lifter({ src: "$..*", via: cleanArray }),
   lifter(
     { src: "$..*" },
@@ -42,7 +42,7 @@ const lift = lifter.pipe(
       ]
     }
   ),
-  lifter({ src: "$..*", via: numify })
+  lifter({ src: "$..*", via: numify, leaf: true })
 );
 
 async function main() {
