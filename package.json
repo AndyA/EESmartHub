@@ -6,9 +6,6 @@
   "bin": {
     "eesmarthub": "poller.js"
   },
-  "directories": {
-    "lib": "lib"
-  },
   "prettier": {
     "tabWidth": 2,
     "useTabs": false,
@@ -18,7 +15,6 @@
     "jsxSingleQuote": false,
     "trailingComma": "none",
     "bracketSpacing": true,
-    "jsxBracketSameLine": true,
     "arrowParens": "avoid",
     "requirePragma": false,
     "insertPragma": false,
@@ -31,13 +27,8 @@
     "bluebird": "^3.7.2",
     "config": "^3.2.4",
     "cross-fetch": "^3.0.6",
-    "lodash": "^4.17.20",
-    "mkdirp": "^0.5.1",
-    "moment": "^2.24.0",
-    "nano": "^8.1.0",
-    "printf": "^0.6.0",
-    "rxjs": "^6.5.3",
-    "write-file-atomic": "^3.0.1"
+    "jsonpath-lifter": "^0.0.13",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -56,7 +47,7 @@
     "smarthub"
   ],
   "author": "Andy Armstrong <andy@hexten.net>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AndyA/EESmartHub/issues"
   },
