@@ -7,10 +7,7 @@ const sh = new SmartHubCache(`http://${router}`, 1000);
 
 async function main() {
   const stats = await sh.getStats();
-  for (const stat of stats.rate) {
-    const name = await stat.getIdent();
-    console.log(`${stat.mac} ${stat.ip.join(", ")} ${name}`);
-  }
+  console.log(JSON.stringify(stats, null, 2));
 }
 
 main().catch(e => {
