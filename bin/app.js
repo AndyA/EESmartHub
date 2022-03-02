@@ -1,7 +1,6 @@
 require("../lib/use");
 
 const config = require("config");
-const os = require("os");
 const client = require("prom-client");
 const express = require("express");
 require("express-async-errors");
@@ -12,12 +11,13 @@ const app = express();
 
 const prefix = "smarthub_";
 const port = config.get("port");
+const router = config.get("router");
 
 const { register } = client;
 client.collectDefaultMetrics();
-register.setDefaultLabels({ host: os.hostname });
+register.setDefaultLabels({ router });
 
-const sh = new SmartHubCache(config.get("router"), 10000);
+const sh = new SmartHubCache(`http://${router}`, 1000);
 
 new client.Gauge({
   name: `${prefix}bandwidth`,
@@ -26,7 +26,8 @@ new client.Gauge({
   async collect() {
     const stats = await sh.getStats();
     for (const rec of stats.rate) {
-      const { ident, mac, app, rx, tx } = rec;
+      const ident = await rec.getIdent();
+      const { mac, app, rx, tx } = rec;
       this.labels(ident, mac, app, "rx").set(rx);
       this.labels(ident, mac, app, "tx").set(tx);
     }
